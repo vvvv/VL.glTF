@@ -185,7 +185,7 @@
    <LINK srcnodeid="9" srcpinname="Output" dstnodeid="17" dstpinname="Input Node">
    </LINK>
    <NODE id="18" systemname="IOBox (Value Advanced)" componentmode="InABox" nodename="IOBox (Value Advanced)">
-   <PIN pinname="Descriptive Name" slicecount="1" values="Indicis">
+   <PIN pinname="Descriptive Name" slicecount="1" values="Indices">
    </PIN>
    <BOUNDS type="Box" left="6000" top="500" width="750" height="240">
    </BOUNDS>
