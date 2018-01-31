@@ -163,7 +163,9 @@
               <Pin Id="POtPZRu8pENMh0dwXZ65r0" Name="Tangents" Kind="OutputPin" />
               <Pin Id="KXWJAGCzcS6PPAGncqo2mo" Name="UVs" Kind="OutputPin" />
               <Pin Id="HG19HaF2XZ8OSd7Vz7H3cB" Name="Indices" Kind="OutputPin" />
+              <Pin Id="ECoU76MmR5fQJVgVz3hCIL" Name="Joints" Kind="OutputPin" />
               <Pin Id="DITX9z448FHP5vL0TTb8T8" Name="Material ID" Kind="OutputPin" />
+              <Pin Id="FD3raeedzZ8OSwlHN3VDjx" Name="Weights" Kind="OutputPin" />
             </Node>
             <ControlPoint Id="ETvHyo4dIrnOSsiyheqsI0" Bounds="297,202" />
             <ControlPoint Id="Ll1wktFyGEQOgf0Mkq8Dsf" Bounds="504,288" />
@@ -173,6 +175,8 @@
             <ControlPoint Id="L74I40fw7F2QVDJTutRXyi" Bounds="315,288" />
             <ControlPoint Id="AHS0m8PujJNPvXEerUkAkv" Bounds="487,208" />
             <ControlPoint Id="ISzs0A6ZAvOLUKjmsiY8cg" Bounds="384,288" />
+            <ControlPoint Id="SKAddC9J4zLP80iA6foiPT" Bounds="661,289" />
+            <ControlPoint Id="Sva1ui7H16vLZ1Qbz4Mk7f" Bounds="713,288" />
           </Canvas>
           <Patch Id="BmdyXz1V7BQL2gudR3Q56D" Name="Create" />
           <Patch Id="VpxyqvYeWXyMdXmP9nw6PL" Name="Update">
@@ -184,6 +188,8 @@
             <Pin Id="O89Itdt9ygwMwZ8hZMoWl1" Name="Normals" Kind="OutputPin" Bounds="416,289" />
             <Pin Id="Kydk65jyfX5My6t8L9j7Cu" Name="Meshes" Kind="InputPin" Bounds="487,208" />
             <Pin Id="ULWJfhbU6A0N6G4ItoyX49" Name="Tangents" Kind="OutputPin" Bounds="377,288" />
+            <Pin Id="Ewc02yyYXqYQcxgfzHosUf" Name="Joints" Kind="OutputPin" Bounds="661,289" />
+            <Pin Id="TI4Y9OFl2whO8aytp2x9cU" Name="Weights" Kind="OutputPin" Bounds="713,288" />
           </Patch>
           <ProcessDefinition Id="DjgPuat2KJKPHJJepigyxg">
             <Fragment Id="Oz6wWCkOtfDLocfD9X9isB" Patch="BmdyXz1V7BQL2gudR3Q56D" Enabled="true" />
@@ -205,6 +211,10 @@
           <Link Id="DZkvTO7zvxaQVlvaf91AUD" Ids="Kydk65jyfX5My6t8L9j7Cu,AHS0m8PujJNPvXEerUkAkv" IsHidden="true" />
           <Link Id="BwpMmivYFHSMQYcnLrjr0x" Ids="POtPZRu8pENMh0dwXZ65r0,ISzs0A6ZAvOLUKjmsiY8cg" />
           <Link Id="VSSTylWDpQXNTOfy9LpJcf" Ids="ISzs0A6ZAvOLUKjmsiY8cg,ULWJfhbU6A0N6G4ItoyX49" IsHidden="true" />
+          <Link Id="B8rWwoisjMZNR6JJ8M8NtJ" Ids="ECoU76MmR5fQJVgVz3hCIL,SKAddC9J4zLP80iA6foiPT" />
+          <Link Id="BMTqSAlt9o1MAlD0KUqMQD" Ids="SKAddC9J4zLP80iA6foiPT,Ewc02yyYXqYQcxgfzHosUf" IsHidden="true" />
+          <Link Id="RHKYSiC4khWNh4hTOcvoyb" Ids="FD3raeedzZ8OSwlHN3VDjx,Sva1ui7H16vLZ1Qbz4Mk7f" />
+          <Link Id="KEn1jHQ5zQHLjhdHE4Zdez" Ids="Sva1ui7H16vLZ1Qbz4Mk7f,TI4Y9OFl2whO8aytp2x9cU" IsHidden="true" />
         </Patch>
       </Node>
       <!--
@@ -286,9 +296,11 @@
               <Pin Id="QkkIZo0QnbnOu412dJTfhs" Name="Transform" Kind="InputPin" />
               <Pin Id="FjhiTnWOZ2HNB8FcKiUVfc" Name="Time" Kind="InputPin" />
               <Pin Id="UtCY5mbie8sMqV6TNR3wSR" Name="Name" Kind="OutputPin" />
+              <Pin Id="Jz33Ywi7GWXQJXYLIHP4fH" Name="Joint Matrices" Kind="OutputPin" />
               <Pin Id="SIkyCZorM4DMFr1YtJ0Afh" Name="Mesh Name" Kind="OutputPin" />
               <Pin Id="KeIeCStvO7vMN3Gz8WViXO" Name="Mesh ID" Kind="OutputPin" />
               <Pin Id="BODSq3RZ93gPdE1OEl3AH1" Name="Mesh Transform" Kind="OutputPin" />
+              <Pin Id="OTg32zFLjZaNpT02wX6uGv" Name="Pin" Kind="OutputPin" />
               <Pin Id="S0BSrg8u5FlOr41kmPrdpl" Name="Camera Name" Kind="OutputPin" />
               <Pin Id="QFjpardLnGdLGWBc0dOf9V" Name="Camera ID" Kind="OutputPin" />
               <Pin Id="TUezIey8PIgNrKPPTqILDp" Name="Camera Transform" Kind="OutputPin" />
@@ -304,6 +316,7 @@
             <ControlPoint Id="MKZaKdGmjPJLGGclVyqu5j" Bounds="521,323" />
             <ControlPoint Id="FhyB42QUvepO1cO9VPd7Mt" Bounds="600,318" />
             <ControlPoint Id="E3x142jVF1ZPAxNPWexgDs" Bounds="570,355" />
+            <ControlPoint Id="IBz6gpt0GyCMDJZKLMS694" Bounds="255,396" />
           </Canvas>
           <Patch Id="UZXRKR2UYyxMCLr2D8ipCk" Name="Create" />
           <Patch Id="OQYCfAkVdnQLtvyLgOBaTa" Name="Update">
@@ -318,6 +331,7 @@
             <Pin Id="Sgp2WAL6wyPLMvE24ATMPI" Name="Camera Name" Kind="OutputPin" Bounds="675,313" />
             <Pin Id="A3SJrQJUFEKL51kPf6sDO5" Name="Camera Transform" Kind="OutputPin" Bounds="754,308" />
             <Pin Id="BrJrsYR8MahLXq8YWLS7qC" Name="Camera ID" Kind="OutputPin" Bounds="570,355" />
+            <Pin Id="NzmCrxy2agTNgDTIahNL1m" Name="Joint Matrices" Kind="OutputPin" Bounds="255,396" />
           </Patch>
           <ProcessDefinition Id="MhlJNyEUozxPZ08QAvBJ1G">
             <Fragment Id="MHcPCoXUnw5OEK21D5YGRV" Patch="UZXRKR2UYyxMCLr2D8ipCk" Enabled="true" />
@@ -345,6 +359,8 @@
           <Link Id="RQrPN9bnp13QDpjylcBDNA" Ids="FhyB42QUvepO1cO9VPd7Mt,A3SJrQJUFEKL51kPf6sDO5" IsHidden="true" />
           <Link Id="Uv9RpK7p1vmOCeIKAAebfu" Ids="QFjpardLnGdLGWBc0dOf9V,E3x142jVF1ZPAxNPWexgDs" />
           <Link Id="HeULbPF1OtlMmd2l19piw7" Ids="E3x142jVF1ZPAxNPWexgDs,BrJrsYR8MahLXq8YWLS7qC" IsHidden="true" />
+          <Link Id="FowezwC2KcnL7MuWjDvFpW" Ids="Jz33Ywi7GWXQJXYLIHP4fH,IBz6gpt0GyCMDJZKLMS694" />
+          <Link Id="DDNGVe0rLPWPPAkyEUBk3u" Ids="IBz6gpt0GyCMDJZKLMS694,NzmCrxy2agTNgDTIahNL1m" IsHidden="true" />
         </Patch>
       </Node>
       <!--
