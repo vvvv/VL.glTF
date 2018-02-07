@@ -4438,8 +4438,8 @@
               <Pin Id="D6wTLCUIn0PNg5BvrVw6bZ" Name="Model" Kind="OutputPin" />
             </Node>
             <ControlPoint Id="UZidcVp9kE7LaqvnNBg7vf" Bounds="11,-834" />
-            <ControlPoint Id="D6OdWhhzxdnNuBmUfvaz1F" Bounds="170,1946" />
-            <ControlPoint Id="FLJNgm4VRanMF1ZTkHCa8p" Bounds="321,1946" />
+            <ControlPoint Id="D6OdWhhzxdnNuBmUfvaz1F" Bounds="169,1728" />
+            <ControlPoint Id="FLJNgm4VRanMF1ZTkHCa8p" Bounds="320,1728" />
             <!--
 
     ************************ GetLocalTransform ************************
@@ -4642,8 +4642,8 @@
                 <Link Id="Fr94C1Q5qzpMnePRrYe25b" Ids="Qy2smC8eRtTL3yOQulnEh4,PktRZetmI31Lnvxr1rbKQG" />
               </Patch>
             </Node>
-            <ControlPoint Id="GkaFNdmwsXFLKwnw3Sxrqh" Bounds="243,1946" />
-            <Node Bounds="-227,-162,979,2088" Id="VMthvvd4YezNAajwuo87ID">
+            <ControlPoint Id="GkaFNdmwsXFLKwnw3Sxrqh" Bounds="242,1728" />
+            <Node Bounds="-228,-138,979,1846" Id="VMthvvd4YezNAajwuo87ID">
               <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="ApplicationStatefulRegion" Name="Cache" />
                 <FullNameCategoryReference ID="Primitive" />
@@ -4652,7 +4652,7 @@
               <Patch Id="CHp5AUxzlmMNBNZuZQ0V4w" ManuallySortedPins="true">
                 <Patch Id="GT6216XeoZgL6ZGABTdWvz" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="HZaMQoHm3E1OUpAT4PaIiI" Name="Then" ManuallySortedPins="true" />
-                <Node Bounds="-28,108,40,22" Id="JLTVoDNRPbZLHBg8gKD6IT">
+                <Node Bounds="-29,-110,40,22" Id="JLTVoDNRPbZLHBg8gKD6IT">
                   <p:NodeReference LastCategoryFullName="glTFLoader.Schema.Gltf" LastSymbolSource="glTFLoader.dll" LastDependency="VL.glTF.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="Scenes" />
@@ -4661,7 +4661,7 @@
                   <Pin Id="HwLYYH1nvaAQQ25twKpDZG" Name="Output" Kind="StateOutputPin" />
                   <Pin Id="Qrc4Hs4clP4MBkW83dPpKL" Name="Scenes" Kind="OutputPin" />
                 </Node>
-                <Node Bounds="12,157,45,22" Id="Cp2ilARTxsjNqgyvbF1BEz">
+                <Node Bounds="11,-61,45,22" Id="Cp2ilARTxsjNqgyvbF1BEz">
                   <p:NodeReference LastCategoryFullName="Collections.Array" LastSymbolSource="VL.CoreLib.vl" LastDependency="VL.glTF.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="GetItem" />
@@ -4672,7 +4672,7 @@
                   <Pin Id="EzRaeOV4peKM8QbJnpkone" Name="Output" Kind="StateOutputPin" />
                   <Pin Id="VpB1WW8vrMqMREdBqeCMyo" Name="Item" Kind="OutputPin" />
                 </Node>
-                <Node Bounds="11,200,35,22" Id="Fhpe8cIdkwDM6KfR1uuMrn">
+                <Node Bounds="10,-18,35,22" Id="Fhpe8cIdkwDM6KfR1uuMrn">
                   <p:NodeReference LastCategoryFullName="glTFLoader.Schema.Scene" LastSymbolSource="glTFLoader.dll" LastDependency="VL.glTF.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="AssemblyCategory" Name="Scene" />
@@ -4682,7 +4682,7 @@
                   <Pin Id="TzrJetbS3MGOYiN0f7wEU2" Name="Output" Kind="StateOutputPin" />
                   <Pin Id="C3XpLWp39lEMd1zEvBtm4i" Name="Name" Kind="OutputPin" />
                 </Node>
-                <Node Bounds="71,274,38,22" Id="AdbIAr7bHwOLSYTmNkz8qV">
+                <Node Bounds="70,56,38,22" Id="AdbIAr7bHwOLSYTmNkz8qV">
                   <p:NodeReference LastCategoryFullName="glTFLoader.Schema.Scene" LastSymbolSource="glTFLoader.dll" LastDependency="VL.glTF.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="Nodes" />
@@ -4692,7 +4692,7 @@
                   <Pin Id="QtpLGNk0wSsOZn6WvgUvis" Name="Output" Kind="StateOutputPin" />
                   <Pin Id="SnPJZctOltoP4dzeBTuMZb" Name="Nodes" Kind="OutputPin" />
                 </Node>
-                <Node Bounds="226,128,38,22" Id="AHtaPGZYbY9PbogRjM67D3">
+                <Node Bounds="225,-90,38,22" Id="AHtaPGZYbY9PbogRjM67D3">
                   <p:NodeReference LastCategoryFullName="glTFLoader.Schema.Gltf" LastSymbolSource="glTFLoader.dll" LastDependency="VL.glTF.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="Nodes" />
@@ -4702,7 +4702,7 @@
                   <Pin Id="G6SfQqW2R15MOKSSNhjeLq" Name="Output" Kind="StateOutputPin" />
                   <Pin Id="UOnKFn1SEM0NyIgDy2aRbN" Name="Nodes" Kind="OutputPin" />
                 </Node>
-                <Node Bounds="-171,333,911,1550" Id="EQ6sFykLbEAOEOyTGryH20">
+                <Node Bounds="-172,115,911,1550" Id="EQ6sFykLbEAOEOyTGryH20">
                   <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl" LastDependency="VL.glTF.vl">
                     <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                     <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
@@ -4713,7 +4713,7 @@
                     <Patch Id="NrkiCbWfztRLBWBxzNclrP" Name="Create" ManuallySortedPins="true" />
                     <Patch Id="V5Bicy0a96ZQEdx3GZwr9L" Name="Update" ManuallySortedPins="true" />
                     <Patch Id="OVC8WMYvWo0L0ZeFPZzXSc" Name="Destroy" ManuallySortedPins="true" />
-                    <Node Bounds="282,356,45,22" Id="L3UYvEX1IhdOKpuJXuzBvB">
+                    <Node Bounds="281,138,45,22" Id="L3UYvEX1IhdOKpuJXuzBvB">
                       <p:NodeReference LastCategoryFullName="Collections.Array" LastSymbolSource="VL.CoreLib.vl" LastDependency="VL.glTF.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="GetItem" />
@@ -4724,7 +4724,7 @@
                       <Pin Id="JTTiSWHBurCMmHtsSFWc07" Name="Output" Kind="StateOutputPin" />
                       <Pin Id="DuVt9f78QFgLaxltQmU9VK" Name="Item" Kind="OutputPin" />
                     </Node>
-                    <Node Bounds="126,499,403,473" Id="AoCKkS9vrOZMKiYhikeOMM">
+                    <Node Bounds="125,281,403,473" Id="AoCKkS9vrOZMKiYhikeOMM">
                       <p:NodeReference LastCategoryFullName="Collections.Sequence" LastSymbolSource="VL.CoreLib.vl" LastDependency="VL.glTF.vl">
                         <Choice Kind="OperationCallFlag" Name="RecursiveTree" />
                         <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
@@ -4736,10 +4736,10 @@
                         <Pin Id="UE4U6pFZX1tN1GIhZLyRpW" Name="Arg 1" Kind="InputPin" />
                         <Pin Id="LGcLPe8YeqrLjVgMcfNodU" Name="Arg 2" Kind="InputPin" />
                         <Pin Id="IzKha1ixwnhNAPnU1FcdZY" Name="Result" Kind="OutputPin" />
-                        <ControlPoint Id="OPMkAlpa1y5LaZGrEY2pOj" Bounds="163,505" />
-                        <ControlPoint Id="M8wjium3mDUPQQJTZWTw4g" Bounds="448,517" />
-                        <ControlPoint Id="QKpupM7NP57O8vXRqkJFJq" Bounds="278,963" />
-                        <Node Bounds="161,591,48,22" Id="EVHZ7eG2knWNt051UEq989">
+                        <ControlPoint Id="OPMkAlpa1y5LaZGrEY2pOj" Bounds="162,287" />
+                        <ControlPoint Id="M8wjium3mDUPQQJTZWTw4g" Bounds="447,299" />
+                        <ControlPoint Id="QKpupM7NP57O8vXRqkJFJq" Bounds="277,745" />
+                        <Node Bounds="160,373,48,22" Id="EVHZ7eG2knWNt051UEq989">
                           <p:NodeReference LastCategoryFullName="glTFLoader.Schema.Node" LastSymbolSource="glTFLoader.dll" LastDependency="VL.glTF.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <CategoryReference Kind="AssemblyCategory" Name="Node" />
@@ -4749,7 +4749,7 @@
                           <Pin Id="KgMZRjgybdCOUz5UiVViYp" Name="Output" Kind="StateOutputPin" />
                           <Pin Id="KPNPkfwDbJkPLbpuudw0UN" Name="Children" Kind="OutputPin" />
                         </Node>
-                        <Node Bounds="152,666,316,259" Id="N1j2xhKFguFMIndZtiJvqY">
+                        <Node Bounds="151,448,365,285" Id="N1j2xhKFguFMIndZtiJvqY">
                           <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
                             <Choice Kind="ApplicationStatefulRegion" Name="If" />
                             <FullNameCategoryReference ID="Primitive" />
@@ -4758,7 +4758,7 @@
                           <Patch Id="VdyknmsunN5NNBaEX2eQcO" ManuallySortedPins="true">
                             <Patch Id="NHvb16AacdgPb52qUOK8UE" Name="Create" ManuallySortedPins="true" />
                             <Patch Id="K1ZMhF4yZaELgusPa1JLe4" Name="Then" ManuallySortedPins="true" />
-                            <Node Bounds="208,686,297,245" Id="KLWZRJVx0hPL6WVVUT51Te">
+                            <Node Bounds="207,468,297,245" Id="KLWZRJVx0hPL6WVVUT51Te">
                               <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
                                 <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
                                 <FullNameCategoryReference ID="Primitive" />
@@ -4768,7 +4768,7 @@
                                 <Patch Id="K2reazaNSPAP93gtUzeqep" Name="Create" ManuallySortedPins="true" />
                                 <Patch Id="NcwtggMsMl8MTzOPD5vTCy" Name="Update" ManuallySortedPins="true" />
                                 <Patch Id="CUa4pnbnkDiMlokNoouwkO" Name="Destroy" ManuallySortedPins="true" />
-                                <Node Bounds="220,709,45,22" Id="TIWYkqWge4ZQNN6jxFPlTM">
+                                <Node Bounds="219,491,45,22" Id="TIWYkqWge4ZQNN6jxFPlTM">
                                   <p:NodeReference LastCategoryFullName="Collections.Array" LastSymbolSource="VL.CoreLib.vl" LastDependency="VL.glTF.vl">
                                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                                     <Choice Kind="OperationCallFlag" Name="GetItem" />
@@ -4779,7 +4779,7 @@
                                   <Pin Id="ODDOf7yQsXBO7BaN1SW7fQ" Name="Output" Kind="StateOutputPin" />
                                   <Pin Id="E10ZUGKESPdOGlSvXLRnz8" Name="Item" Kind="OutputPin" />
                                 </Node>
-                                <Node Bounds="279,844,63,22" Id="LNCnYWX7G5MLOk1TqLaAv8">
+                                <Node Bounds="278,626,63,22" Id="LNCnYWX7G5MLOk1TqLaAv8">
                                   <p:NodeReference LastCategoryFullName="Primitive.Tuple (3 Items)" LastSymbolSource="VL.CoreLib.vl">
                                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                                     <Choice Kind="OperationCallFlag" Name="Join" />
@@ -4790,7 +4790,7 @@
                                   <Pin Id="KqzCbB8km3jPpxC7nrT1FO" Name="Output" Kind="StateOutputPin" />
                                   <Pin Id="QA2h5eiD0vHL7BOoFWxUNf" Name="Item 3" Kind="InputPin" />
                                 </Node>
-                                <Node Bounds="425,782,25,13" Id="PkfJ7OqY2Q2ObsZYPvaHHB">
+                                <Node Bounds="424,564,25,13" Id="PkfJ7OqY2Q2ObsZYPvaHHB">
                                   <p:NodeReference LastCategoryFullName="Adaptive" LastSymbolSource="VL.CoreLib.vl">
                                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                                     <Choice Kind="OperationCallFlag" Name="+" />
@@ -4800,7 +4800,7 @@
                                   <Pin Id="G0IAaGs84DULGHmDBVwY46" Name="Input 2" Kind="InputPin" />
                                   <Pin Id="UybaGb4QeoALZVjNDIqAYq" Name="Output" Kind="OutputPin" />
                                 </Node>
-                                <Node Bounds="296,808,105,13" Id="GyESXtRV7gTPSs9Ym6WWTb">
+                                <Node Bounds="295,590,105,13" Id="GyESXtRV7gTPSs9Ym6WWTb">
                                   <p:NodeReference LastCategoryFullName="glTF.Scene" LastSymbolSource="VL.glTF.vl">
                                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                                     <Choice Kind="OperationNode" Name="ApplyTransforms" />
@@ -4813,7 +4813,7 @@
                                   <Pin Id="SPkFrlwC9TxQRo4rIzUpFo" Name="Node" Kind="InputPin" />
                                   <Pin Id="MogX0Ta01FZOYY8YfWXvUh" Name="Output" Kind="StateOutputPin" />
                                 </Node>
-                                <Node Bounds="445,752,48,13" Id="Fo16HiQ8HS0N2W5eukFVTB">
+                                <Node Bounds="444,534,48,13" Id="Fo16HiQ8HS0N2W5eukFVTB">
                                   <p:NodeReference LastCategoryFullName="Primitive.Object" LastSymbolSource="VL.CoreLib.vl">
                                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                                     <Choice Kind="OperationCallFlag" Name="ToString" />
@@ -4822,7 +4822,7 @@
                                   <Pin Id="Gmzqz5i8aYrNtrbBhQ0ZhK" Name="Input" Kind="StateInputPin" />
                                   <Pin Id="HUqrJslhgqNMasShRTfAQ6" Name="Result" Kind="OutputPin" />
                                 </Node>
-                                <Node Bounds="398,885,45,22" Id="EHRi1nTLseXOuWQnIko0Mh">
+                                <Node Bounds="397,667,45,22" Id="EHRi1nTLseXOuWQnIko0Mh">
                                   <p:NodeReference LastCategoryFullName="Collections.Dictionary.Builder" LastSymbolSource="VL.CoreLib.vl">
                                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                                     <Choice Kind="OperationCallFlag" Name="Add" />
@@ -4834,7 +4834,7 @@
                                   <Pin Id="Tg3qUhlbQ8vPg5YtNhPzVg" Name="Output" Kind="StateOutputPin" />
                                   <Pin Id="Auxggr6fQb5OFYVXCNFAWU" Name="Item" Kind="InputPin" />
                                 </Node>
-                                <Node Bounds="437,852,55,22" Id="MfUvAyMjPyLP876jv1zm35">
+                                <Node Bounds="436,634,55,22" Id="MfUvAyMjPyLP876jv1zm35">
                                   <p:NodeReference LastCategoryFullName="Collections.KeyValuePair" LastSymbolSource="VL.CoreLib.vl">
                                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                                     <CategoryReference Kind="RecordType" Name="KeyValuePair" />
@@ -4845,14 +4845,14 @@
                                   <Pin Id="MDAYqN2XMGaQdtbMApH8Co" Name="Output" Kind="StateOutputPin" />
                                 </Node>
                               </Patch>
-                              <ControlPoint Id="GZa0rw5cmiAQZmS5ZO7Tmn" Bounds="263,692" Alignment="Top" />
-                              <ControlPoint Id="NS2lK7JA52YM5kvnMkD0Qb" Bounds="281,899" Alignment="Bottom" />
+                              <ControlPoint Id="GZa0rw5cmiAQZmS5ZO7Tmn" Bounds="262,474" Alignment="Top" />
+                              <ControlPoint Id="NS2lK7JA52YM5kvnMkD0Qb" Bounds="280,707" Alignment="Bottom" />
                             </Node>
                           </Patch>
-                          <ControlPoint Id="HMfykln0l3sNFDZKoQZP4d" Bounds="277,919" Alignment="Bottom" />
-                          <ControlPoint Id="NyPQQYUkHENLlHzegFIan8" Bounds="268,672" Alignment="Top" />
+                          <ControlPoint Id="HMfykln0l3sNFDZKoQZP4d" Bounds="276,727" Alignment="Bottom" />
+                          <ControlPoint Id="NyPQQYUkHENLlHzegFIan8" Bounds="267,454" Alignment="Top" />
                         </Node>
-                        <Node Bounds="151,636,59,13" Id="EjYwodf3oEZL5wqKsJdy7I">
+                        <Node Bounds="150,418,59,13" Id="EjYwodf3oEZL5wqKsJdy7I">
                           <p:NodeReference LastCategoryFullName="Primitive.Object" LastSymbolSource="VL.CoreLib.vl" LastDependency="VL.glTF.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="IsAssigned" />
@@ -4861,7 +4861,7 @@
                           <Pin Id="VSPK5MGcRgCP4ldxrtcAmk" Name="Result" Kind="OutputPin" />
                           <Pin Id="Df0ITOti9SyMJkORGwLmxY" Name="Not Assigned" Kind="OutputPin" />
                         </Node>
-                        <Node Bounds="161,545,63,22" Id="Tbr9LGDg0HOM7yjZg4MmAv">
+                        <Node Bounds="160,327,63,22" Id="Tbr9LGDg0HOM7yjZg4MmAv">
                           <p:NodeReference LastCategoryFullName="Primitive.Tuple (3 Items)" LastSymbolSource="VL.CoreLib.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="Split" />
@@ -4874,12 +4874,12 @@
                         </Node>
                       </Patch>
                     </Node>
-                    <Pad Id="GgANPtPcss8Pl3YOX3QtfC" Comment="Max Depth" Bounds="130,470,24,19" ShowValueBox="true" isIOBox="true" Value="10">
+                    <Pad Id="GgANPtPcss8Pl3YOX3QtfC" Comment="Max Depth" Bounds="129,252,24,19" ShowValueBox="true" isIOBox="true" Value="10">
                       <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
                         <Choice Kind="TypeFlag" Name="Integer32" />
                       </p:TypeAnnotation>
                     </Pad>
-                    <Node Bounds="-115,995,506,867" Id="G18asdLEGA8Nux8eGf6x3l">
+                    <Node Bounds="-116,777,506,867" Id="G18asdLEGA8Nux8eGf6x3l">
                       <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl" LastDependency="VL.glTF.vl">
                         <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                         <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
@@ -4892,7 +4892,7 @@
                           <Pin Id="Prwb9aNOYxqPQV1mKfGjhv" Name="Keep" Kind="OutputPin" />
                         </Patch>
                         <Patch Id="JsNvNeQrBnwOCxvrFoCkmz" Name="Destroy" ManuallySortedPins="true" />
-                        <Node Bounds="123,1076,35,22" Id="HjDiyb03rtNPVo0OYiCMi8">
+                        <Node Bounds="122,858,35,22" Id="HjDiyb03rtNPVo0OYiCMi8">
                           <p:NodeReference LastCategoryFullName="glTFLoader.Schema.Node" LastSymbolSource="glTFLoader.dll" LastDependency="VL.glTF.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <CategoryReference Kind="AssemblyCategory" Name="Node" />
@@ -4902,7 +4902,7 @@
                           <Pin Id="HOyTAIUuSXkOOhe8W9us2o" Name="Output" Kind="StateOutputPin" />
                           <Pin Id="BN4nXRaz42oNok5WoJQpoU" Name="Name" Kind="OutputPin" />
                         </Node>
-                        <Node Bounds="123,1032,63,22" Id="CqZhmfQnzjYQXXtEEbx2Ie">
+                        <Node Bounds="122,814,63,22" Id="CqZhmfQnzjYQXXtEEbx2Ie">
                           <p:NodeReference LastCategoryFullName="Primitive.Tuple (3 Items)" LastSymbolSource="VL.CoreLib.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="Split" />
@@ -4913,7 +4913,7 @@
                           <Pin Id="JBBWnzTh1kwNj2jZ2ucGfb" Name="Item 2" Kind="OutputPin" />
                           <Pin Id="KVAccwkBjWwQAo8Ip8XUM9" Name="Item 3" Kind="OutputPin" />
                         </Node>
-                        <Node Bounds="123,1117,33,22" Id="LRrls46c9x5Mmmgm2y6mgw">
+                        <Node Bounds="122,899,33,22" Id="LRrls46c9x5Mmmgm2y6mgw">
                           <p:NodeReference LastCategoryFullName="glTFLoader.Schema.Node" LastSymbolSource="glTFLoader.dll" LastDependency="VL.glTF.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <CategoryReference Kind="AssemblyCategory" Name="Node" />
@@ -4923,7 +4923,7 @@
                           <Pin Id="URBhK3Yp4lSQGwRwqUNlH3" Name="Output" Kind="StateOutputPin" />
                           <Pin Id="OrP7dgdMjjQNZJccozlgqS" Name="Mesh" Kind="OutputPin" />
                         </Node>
-                        <Node Bounds="195,1164,41,13" Id="J3VkLRv3FR7PumrOLqQ3Es">
+                        <Node Bounds="194,946,41,13" Id="J3VkLRv3FR7PumrOLqQ3Es">
                           <p:NodeReference LastCategoryFullName="Primitive.Object" LastSymbolSource="VL.CoreLib.vl" LastDependency="VL.glTF.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="CastAs" />
@@ -4933,13 +4933,13 @@
                           <Pin Id="Vk966uEbvBkMsoXNDdhSiF" Name="Result" Kind="OutputPin" />
                           <Pin Id="CSHu1clLgY9N84vtC5gY2q" Name="Success" Kind="OutputPin" />
                         </Node>
-                        <Pad Id="IxEIl31a9F2M6JS96Xd93l" Comment="Default" Bounds="249,1148,20,20" ShowValueBox="true" isIOBox="true" Value="0">
+                        <Pad Id="IxEIl31a9F2M6JS96Xd93l" Comment="Default" Bounds="248,930,20,20" ShowValueBox="true" isIOBox="true" Value="0">
                           <p:ValueBoxSettings />
                           <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
                             <Choice Kind="TypeFlag" Name="Integer32" />
                           </p:TypeAnnotation>
                         </Pad>
-                        <Node Bounds="123,1169,28,22" Id="EHoem81kmKQOIrfbVY0kTW">
+                        <Node Bounds="122,951,28,22" Id="EHoem81kmKQOIrfbVY0kTW">
                           <p:NodeReference LastCategoryFullName="glTFLoader.Schema.Node" LastSymbolSource="glTFLoader.dll" LastDependency="VL.glTF.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <CategoryReference Kind="AssemblyCategory" Name="Node" />
@@ -4949,7 +4949,7 @@
                           <Pin Id="Lt0b9Y0Zu3IQX4bIq2y0n6" Name="Output" Kind="StateOutputPin" />
                           <Pin Id="Fcfo95HEBX8L9JM0S79Ge8" Name="Skin" Kind="OutputPin" />
                         </Node>
-                        <Node Bounds="149,1217,41,13" Id="IGMdQU0NMd7NlvStxAPcuz">
+                        <Node Bounds="148,999,41,13" Id="IGMdQU0NMd7NlvStxAPcuz">
                           <p:NodeReference LastCategoryFullName="Primitive.Object" LastSymbolSource="VL.CoreLib.vl" LastDependency="VL.glTF.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="CastAs" />
@@ -4959,7 +4959,7 @@
                           <Pin Id="Uz5S8vH1hYQNJMnooXITHH" Name="Result" Kind="OutputPin" />
                           <Pin Id="SjA5CBoY7btN4vdvUZT1g7" Name="Success" Kind="OutputPin" />
                         </Node>
-                        <Node Bounds="-53,1145,33,22" Id="LbbIw1xMdf6OIp3ZwSwYSx">
+                        <Node Bounds="-54,927,33,22" Id="LbbIw1xMdf6OIp3ZwSwYSx">
                           <p:NodeReference LastCategoryFullName="glTFLoader.Schema.Gltf" LastSymbolSource="glTFLoader.dll" LastDependency="VL.glTF.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="Skins" />
@@ -4968,7 +4968,7 @@
                           <Pin Id="AsOLY2BFLzYOLDh3daOkYB" Name="Output" Kind="StateOutputPin" />
                           <Pin Id="U8sMt8TPf7GM0jgu5wNmqg" Name="Skins" Kind="OutputPin" />
                         </Node>
-                        <Node Bounds="-89,1275,428,536" Id="NjwbEiOy7YCMvOED0I1JM3">
+                        <Node Bounds="-90,1057,428,536" Id="NjwbEiOy7YCMvOED0I1JM3">
                           <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
                             <Choice Kind="ApplicationStatefulRegion" Name="If" />
                             <FullNameCategoryReference ID="Primitive" />
@@ -4977,7 +4977,7 @@
                           <Patch Id="OwuTpa1FQJ3LsCAg63nJU5" ManuallySortedPins="true">
                             <Patch Id="VMMIURbrYPSP3DaYm6slwH" Name="Create" ManuallySortedPins="true" />
                             <Patch Id="HeahSopGZCCPajIDQZup7h" Name="Then" ManuallySortedPins="true" />
-                            <Node Bounds="-23,1298,45,22" Id="HoO1VXfQC1bOLKo575K2zw">
+                            <Node Bounds="-24,1080,45,22" Id="HoO1VXfQC1bOLKo575K2zw">
                               <p:NodeReference LastCategoryFullName="Collections.Array" LastSymbolSource="VL.CoreLib.vl" LastDependency="VL.glTF.vl">
                                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                                 <Choice Kind="OperationCallFlag" Name="GetItem" />
@@ -4988,7 +4988,7 @@
                               <Pin Id="BwnfGOuDKtwNdJQogFQ1ZZ" Name="Output" Kind="StateOutputPin" />
                               <Pin Id="DeNVCVsJnPsLNVzot6D0Yj" Name="Item" Kind="OutputPin" />
                             </Node>
-                            <Node Bounds="13,1339,101,22" Id="U1cA3GfGl9pOwDoEzYmLJS">
+                            <Node Bounds="12,1121,101,22" Id="U1cA3GfGl9pOwDoEzYmLJS">
                               <p:NodeReference LastCategoryFullName="glTFLoader.Schema.Skin" LastSymbolSource="glTFLoader.dll" LastDependency="VL.glTF.vl">
                                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                                 <CategoryReference Kind="AssemblyCategory" Name="Skin" />
@@ -4998,7 +4998,7 @@
                               <Pin Id="SeV0O9H390hMsluK6jTFxn" Name="Output" Kind="StateOutputPin" />
                               <Pin Id="JDjdhCwpJUZMU7ffNWif81" Name="Inverse Bind Matrices" Kind="OutputPin" />
                             </Node>
-                            <Node Bounds="13,1380,35,22" Id="MfmZLLpCmaBMvouv5HQSnf">
+                            <Node Bounds="12,1162,35,22" Id="MfmZLLpCmaBMvouv5HQSnf">
                               <p:NodeReference LastCategoryFullName="glTFLoader.Schema.Skin" LastSymbolSource="glTFLoader.dll" LastDependency="VL.glTF.vl">
                                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                                 <CategoryReference Kind="AssemblyCategory" Name="Skin" />
@@ -5008,7 +5008,7 @@
                               <Pin Id="Sx5YzmVTbloOZmmcjYIG1d" Name="Output" Kind="StateOutputPin" />
                               <Pin Id="PHQ0beYjMPJODTgcHbqInn" Name="Joints" Kind="OutputPin" />
                             </Node>
-                            <Node Bounds="110,1380,41,13" Id="P1XTeo1u5WsPtN9saVXs8o">
+                            <Node Bounds="109,1162,41,13" Id="P1XTeo1u5WsPtN9saVXs8o">
                               <p:NodeReference LastCategoryFullName="Primitive.Object" LastSymbolSource="VL.CoreLib.vl" LastDependency="VL.glTF.vl">
                                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                                 <Choice Kind="OperationCallFlag" Name="CastAs" />
@@ -5018,7 +5018,7 @@
                               <Pin Id="D9NT6vTwclYPhz3wpfQJXz" Name="Result" Kind="OutputPin" />
                               <Pin Id="IFrgTiICvv8OSmRiaJKJv3" Name="Success" Kind="OutputPin" />
                             </Node>
-                            <Node Bounds="-33,1492,256,299" Id="SSKQZKlWB8gLz2hb6qCJym">
+                            <Node Bounds="-34,1274,257,299" Id="SSKQZKlWB8gLz2hb6qCJym">
                               <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl" LastDependency="VL.glTF.vl">
                                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                                 <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
@@ -5031,7 +5031,7 @@
                                   <Pin Id="AYGCcE9QelJP4Ma63zJi2l" Name="Index" Kind="InputPin" />
                                 </Patch>
                                 <Patch Id="HLs2KGx7rrzON0FyPHRy8C" Name="Destroy" ManuallySortedPins="true" />
-                                <Node Bounds="83,1744,45,13" Id="PA235LjrbTNLTcfPtgAzKW">
+                                <Node Bounds="82,1526,45,13" Id="PA235LjrbTNLTcfPtgAzKW">
                                   <p:NodeReference LastCategoryFullName="Adaptive" LastSymbolSource="VL.CoreLib.vl" LastDependency="VL.glTF.vl">
                                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                                     <Choice Kind="OperationCallFlag" Name="*" />
@@ -5042,8 +5042,8 @@
                                   <Pin Id="FGE0XWrSSw7Pya6aubMsQQ" Name="Output" Kind="OutputPin" />
                                   <Pin Id="VuAvDkWLC7tOAPSf9SDFnm" Name="Input 3" Kind="InputPin" />
                                 </Node>
-                                <ControlPoint Id="IoSHqWfwHrQP3FOfIx0iAH" Bounds="94,1511" />
-                                <Node Bounds="98,1670,38,13" Id="C5koB8vw4uRN7U2ovnwT5H">
+                                <ControlPoint Id="IoSHqWfwHrQP3FOfIx0iAH" Bounds="93,1293" />
+                                <Node Bounds="97,1452,38,13" Id="C5koB8vw4uRN7U2ovnwT5H">
                                   <p:NodeReference LastCategoryFullName="3D.Matrix" LastSymbolSource="VL.CoreLib.vl" LastDependency="VL.glTF.vl">
                                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                                     <Choice Kind="OperationCallFlag" Name="Matrix (Join Spread)" />
@@ -5051,7 +5051,7 @@
                                   <Pin Id="RHr2Fen7ByOMtAwEDgwJ7i" Name="Elements" Kind="InputPin" />
                                   <Pin Id="Kv9Rd1wJgURNdKKtUpW99p" Name="Result" Kind="OutputPin" />
                                 </Node>
-                                <Node Bounds="98,1626,56,22" Id="K6ftvRCPNNoOpgu0MyJoFg">
+                                <Node Bounds="97,1408,56,22" Id="K6ftvRCPNNoOpgu0MyJoFg">
                                   <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.vl" LastDependency="VL.glTF.vl">
                                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                                     <Choice Kind="OperationCallFlag" Name="GetSpread" />
@@ -5065,7 +5065,7 @@
                                   </Pin>
                                   <Pin Id="EOKNxfEFtjlLLCqZ2AbTjn" Name="Output" Kind="StateOutputPin" />
                                 </Node>
-                                <Node Bounds="91,1571,25,13" Id="GjQjx7OjBQ2OU6wtwOQeMs">
+                                <Node Bounds="90,1353,25,13" Id="GjQjx7OjBQ2OU6wtwOQeMs">
                                   <p:NodeReference LastCategoryFullName="Adaptive" LastSymbolSource="VL.CoreLib.vl" LastDependency="VL.glTF.vl">
                                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                                     <Choice Kind="OperationCallFlag" Name="*" />
@@ -5079,12 +5079,12 @@
                                   </Pin>
                                   <Pin Id="G08JvbnJxOdMdAGThu4YMR" Name="Output" Kind="OutputPin" />
                                 </Node>
-                                <Pad Id="CgwhR0YCrgxNjWk3hbMtPM" Comment="" Bounds="151,1550,24,19" ShowValueBox="true" isIOBox="true" Value="16">
+                                <Pad Id="CgwhR0YCrgxNjWk3hbMtPM" Comment="" Bounds="150,1332,24,19" ShowValueBox="true" isIOBox="true" Value="16">
                                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
                                     <Choice Kind="TypeFlag" Name="Integer32" />
                                   </p:TypeAnnotation>
                                 </Pad>
-                                <Node Bounds="-21,1556,65,22" Id="FjSKP5RIfaROHS3Ig7Xqvv">
+                                <Node Bounds="-22,1338,65,22" Id="FjSKP5RIfaROHS3Ig7Xqvv">
                                   <p:NodeReference LastCategoryFullName="Collections.Dictionary.Builder" LastSymbolSource="VL.CoreLib.vl">
                                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                                     <CategoryReference Kind="RecordType" Name="Dictionary" />
@@ -5098,10 +5098,10 @@
                                   <Pin Id="Jz0aKBo75NzNoGWkqfRVmJ" Name="Value" Kind="OutputPin" />
                                 </Node>
                               </Patch>
-                              <ControlPoint Id="E7XvazdDUwELUmIegF6Pi3" Bounds="41,1499" Alignment="Top" />
-                              <ControlPoint Id="ExDdJ4Nm2tuNHgj6UDZwPV" Bounds="36,1785" Alignment="Bottom" />
+                              <ControlPoint Id="E7XvazdDUwELUmIegF6Pi3" Bounds="40,1280" Alignment="Top" />
+                              <ControlPoint Id="ExDdJ4Nm2tuNHgj6UDZwPV" Bounds="35,1567" Alignment="Bottom" />
                             </Node>
-                            <Node Bounds="13,1423,48,22" Id="MOnG4m1Z3XSNJ2CHIgmMD9">
+                            <Node Bounds="12,1205,48,22" Id="MOnG4m1Z3XSNJ2CHIgmMD9">
                               <p:NodeReference LastCategoryFullName="glTFLoader.Schema.Skin" LastSymbolSource="glTFLoader.dll" LastDependency="VL.glTF.vl">
                                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                                 <Choice Kind="OperationCallFlag" Name="Skeleton" />
@@ -5110,8 +5110,8 @@
                               <Pin Id="A3A21vszeJSO1VhULo5yoD" Name="Output" Kind="StateOutputPin" />
                               <Pin Id="QDQ3OiHg2BFMByfUCvRNWj" Name="Skeleton" Kind="OutputPin" />
                             </Node>
-                            <ControlPoint Id="SUYtQEVVoAHOLlhax6FtVr" Bounds="14,1406" />
-                            <Node Bounds="107,1458,41,13" Id="NkpP1RP37a3NS0puAMVbIB">
+                            <ControlPoint Id="SUYtQEVVoAHOLlhax6FtVr" Bounds="13,1188" />
+                            <Node Bounds="106,1240,41,13" Id="NkpP1RP37a3NS0puAMVbIB">
                               <p:NodeReference LastCategoryFullName="Primitive.Object" LastSymbolSource="VL.CoreLib.vl" LastDependency="VL.glTF.vl">
                                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                                 <Choice Kind="OperationCallFlag" Name="CastAs" />
@@ -5121,7 +5121,7 @@
                               <Pin Id="Qg42JLai0Y0PdnqQeMUA7c" Name="Result" Kind="OutputPin" />
                               <Pin Id="KTEftk8AxKcO8xr56VO4EZ" Name="Success" Kind="OutputPin" />
                             </Node>
-                            <Node Bounds="262,1548,65,22" Id="BLVAuxaIcMwLm8lijga7Z0">
+                            <Node Bounds="261,1330,65,22" Id="BLVAuxaIcMwLm8lijga7Z0">
                               <p:NodeReference LastCategoryFullName="Collections.Dictionary.Builder" LastSymbolSource="VL.CoreLib.vl" LastDependency="VL.glTF.vl">
                                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                                 <Choice Kind="OperationCallFlag" Name="TryGetValue" />
@@ -5135,7 +5135,7 @@
                               <Pin Id="IeYhQ9x9wOgLnbtT4e4ZAG" Name="Result" Kind="OutputPin" />
                               <Pin Id="QZkRo21kd5UNKOPoerbtWt" Name="Value" Kind="OutputPin" />
                             </Node>
-                            <Node Bounds="277,1608,35,13" Id="GM3tS9t3e7VOlpGk37vGTa">
+                            <Node Bounds="276,1390,35,13" Id="GM3tS9t3e7VOlpGk37vGTa">
                               <p:NodeReference LastCategoryFullName="3D.Matrix" LastSymbolSource="VL.CoreLib.vl" LastDependency="VL.glTF.vl">
                                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                                 <Choice Kind="OperationCallFlag" Name="Invert" />
@@ -5144,7 +5144,7 @@
                               <Pin Id="U7kXn1BwmjEOr79bOEe46K" Name="Input" Kind="StateInputPin" />
                               <Pin Id="M8r6kQ3bROKPIWQK4hLE5m" Name="Output" Kind="StateOutputPin" />
                             </Node>
-                            <Node Bounds="169,1445,69,13" Id="KoaRaC9h8HfOt1GVqsi5ex">
+                            <Node Bounds="168,1227,69,13" Id="KoaRaC9h8HfOt1GVqsi5ex">
                               <p:NodeReference LastCategoryFullName="glTF.Mesh" LastSymbolSource="VL.glTF.vl">
                                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                                 <Choice Kind="OperationCallFlag" Name="GetFloats" />
@@ -5159,19 +5159,19 @@
                               <Pin Id="BQhNFME560SNKw3qx09xwe" Name="Output" Kind="StateOutputPin" />
                             </Node>
                           </Patch>
-                          <ControlPoint Id="TEGcSQ0LYGGQUiZN9pkd4D" Bounds="38,1805" Alignment="Bottom" />
-                          <ControlPoint Id="P8WxsxUuDhJOoDU84RDjn5" Bounds="38,1281" Alignment="Top" />
+                          <ControlPoint Id="TEGcSQ0LYGGQUiZN9pkd4D" Bounds="37,1587" Alignment="Bottom" />
+                          <ControlPoint Id="P8WxsxUuDhJOoDU84RDjn5" Bounds="37,1063" Alignment="Top" />
                         </Node>
-                        <ControlPoint Id="HCNgQpEwuQMMsGBe0FjyBO" Bounds="273,1227" />
+                        <ControlPoint Id="HCNgQpEwuQMMsGBe0FjyBO" Bounds="272,1009" />
                       </Patch>
-                      <ControlPoint Id="Js0zc1fJ9oeMYFkQ2ug1jI" Bounds="126,1001" Alignment="Top" />
-                      <ControlPoint Id="FleCMepFTeQNICERZprcQ6" Bounds="162,1856" Alignment="Bottom" />
-                      <ControlPoint Id="GB7YInn00nROpDIIDsixsj" Bounds="311,1856" Alignment="Bottom" />
-                      <ControlPoint Id="IxYlmShLPrqMRsJmPVtyAd" Bounds="227,1856" Alignment="Bottom" />
-                      <ControlPoint Id="Uvi3tZ28KhHOdSs3DKXiIy" Bounds="365,1856" Alignment="Bottom" />
-                      <ControlPoint Id="BqW3fjkZxJCMG4XXPtxpM8" Bounds="36,1856" Alignment="Bottom" />
+                      <ControlPoint Id="Js0zc1fJ9oeMYFkQ2ug1jI" Bounds="125,783" Alignment="Top" />
+                      <ControlPoint Id="FleCMepFTeQNICERZprcQ6" Bounds="161,1638" Alignment="Bottom" />
+                      <ControlPoint Id="GB7YInn00nROpDIIDsixsj" Bounds="310,1638" Alignment="Bottom" />
+                      <ControlPoint Id="IxYlmShLPrqMRsJmPVtyAd" Bounds="226,1638" Alignment="Bottom" />
+                      <ControlPoint Id="Uvi3tZ28KhHOdSs3DKXiIy" Bounds="364,1638" Alignment="Bottom" />
+                      <ControlPoint Id="BqW3fjkZxJCMG4XXPtxpM8" Bounds="35,1638" Alignment="Bottom" />
                     </Node>
-                    <Node Bounds="329,453,63,22" Id="Ce7se1S6XsaNIhqTk2yNVs">
+                    <Node Bounds="328,235,63,22" Id="Ce7se1S6XsaNIhqTk2yNVs">
                       <p:NodeReference LastCategoryFullName="Primitive.Tuple (3 Items)" LastSymbolSource="VL.CoreLib.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="Join" />
@@ -5182,7 +5182,7 @@
                       <Pin Id="O3eB7WdmU9PQGTUTtjvh8D" Name="Output" Kind="StateOutputPin" />
                       <Pin Id="GTECZqkBR45P7Mduiqhox1" Name="Item 3" Kind="InputPin" />
                     </Node>
-                    <Node Bounds="482,411,48,13" Id="Mx5MH6xUZxUN6G6FBfay3o">
+                    <Node Bounds="481,193,48,13" Id="Mx5MH6xUZxUN6G6FBfay3o">
                       <p:NodeReference LastCategoryFullName="Primitive.Object" LastSymbolSource="VL.CoreLib.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="ToString" />
@@ -5191,7 +5191,7 @@
                       <Pin Id="OGt0vdCDEx2ODWjEbuifM5" Name="Input" Kind="StateInputPin" />
                       <Pin Id="PMApInn1LwMOuLROYv4TuW" Name="Result" Kind="OutputPin" />
                     </Node>
-                    <Node Bounds="457,1010,271,264" Id="NCFeVf1be9tLk2OdbiJpuE">
+                    <Node Bounds="456,792,271,264" Id="NCFeVf1be9tLk2OdbiJpuE">
                       <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl" LastDependency="VL.glTF.vl">
                         <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                         <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
@@ -5204,7 +5204,7 @@
                           <Pin Id="Pgf0xFGir8mMC8ONV1HS8g" Name="Keep" Kind="OutputPin" />
                         </Patch>
                         <Patch Id="U4gbVqRzqbcNoJBREloHNm" Name="Destroy" ManuallySortedPins="true" />
-                        <Node Bounds="471,1091,35,22" Id="TWynXhvrViEMibYahkCSDz">
+                        <Node Bounds="470,873,35,22" Id="TWynXhvrViEMibYahkCSDz">
                           <p:NodeReference LastCategoryFullName="glTFLoader.Schema.Node" LastSymbolSource="glTFLoader.dll" LastDependency="VL.glTF.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <CategoryReference Kind="AssemblyCategory" Name="Node" />
@@ -5214,7 +5214,7 @@
                           <Pin Id="GQNPwnp5NXaNpC0XS21TIi" Name="Output" Kind="StateOutputPin" />
                           <Pin Id="COa4VfZa4RnMi6Bk0q0CkY" Name="Name" Kind="OutputPin" />
                         </Node>
-                        <Node Bounds="470,1047,63,22" Id="FhBiPiP9OzoNw6CnYfyBsh">
+                        <Node Bounds="469,829,63,22" Id="FhBiPiP9OzoNw6CnYfyBsh">
                           <p:NodeReference LastCategoryFullName="Primitive.Tuple (3 Items)" LastSymbolSource="VL.CoreLib.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="Split" />
@@ -5225,7 +5225,7 @@
                           <Pin Id="MSeerIPO7x6N4YY2H77gin" Name="Item 2" Kind="OutputPin" />
                           <Pin Id="GxYns6t6UwaPH6lEiiv0CN" Name="Item 3" Kind="OutputPin" />
                         </Node>
-                        <Node Bounds="519,1129,44,22" Id="BcbC2hYsI0QMLYPBGK9xkQ">
+                        <Node Bounds="518,911,44,22" Id="BcbC2hYsI0QMLYPBGK9xkQ">
                           <p:NodeReference LastCategoryFullName="glTFLoader.Schema.Node" LastSymbolSource="glTFLoader.dll" LastDependency="VL.glTF.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <CategoryReference Kind="AssemblyCategory" Name="Node" />
@@ -5235,8 +5235,8 @@
                           <Pin Id="TJ18G7REUo4OCU3FYcQSfd" Name="Output" Kind="StateOutputPin" />
                           <Pin Id="Vk6q1Nc6T7oP1bzpqeS9OE" Name="Camera" Kind="OutputPin" />
                         </Node>
-                        <ControlPoint Id="DiGeIE9TWyiPJWu7Pj3cBG" Bounds="583,1222" />
-                        <Node Bounds="548,1168,41,13" Id="JCcFdpT5FhvNYsBtqRzVNt">
+                        <ControlPoint Id="DiGeIE9TWyiPJWu7Pj3cBG" Bounds="582,1004" />
+                        <Node Bounds="547,950,41,13" Id="JCcFdpT5FhvNYsBtqRzVNt">
                           <p:NodeReference LastCategoryFullName="Primitive.Object" LastSymbolSource="VL.CoreLib.vl" LastDependency="VL.glTF.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="CastAs" />
@@ -5246,19 +5246,19 @@
                           <Pin Id="NtyhcUEBoaiQH2To2mpzyd" Name="Result" Kind="OutputPin" />
                           <Pin Id="MREshAjW4n7PO4Z31DbAI8" Name="Success" Kind="OutputPin" />
                         </Node>
-                        <Pad Id="OVwGFqHl0qALHoGpBNVl5U" Comment="Default" Bounds="606,1149,18,19" ShowValueBox="true" isIOBox="true" Value="0">
+                        <Pad Id="OVwGFqHl0qALHoGpBNVl5U" Comment="Default" Bounds="605,931,18,19" ShowValueBox="true" isIOBox="true" Value="0">
                           <p:ValueBoxSettings />
                           <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
                             <Choice Kind="TypeFlag" Name="Integer32" />
                           </p:TypeAnnotation>
                         </Pad>
                       </Patch>
-                      <ControlPoint Id="Cr3Fd2uQzZUMIIcmbTyt30" Bounds="472,1016" Alignment="Top" />
-                      <ControlPoint Id="TNTiKJAZ4gQLB2OH0u1OMx" Bounds="499,1268" Alignment="Bottom" />
-                      <ControlPoint Id="Et4lHgJPJX0LpfGKqXoJoq" Bounds="648,1268" Alignment="Bottom" />
-                      <ControlPoint Id="TiJ6sFGUU5NLI5f70QAEpN" Bounds="564,1268" Alignment="Bottom" />
+                      <ControlPoint Id="Cr3Fd2uQzZUMIIcmbTyt30" Bounds="471,798" Alignment="Top" />
+                      <ControlPoint Id="TNTiKJAZ4gQLB2OH0u1OMx" Bounds="498,1050" Alignment="Bottom" />
+                      <ControlPoint Id="Et4lHgJPJX0LpfGKqXoJoq" Bounds="647,1050" Alignment="Bottom" />
+                      <ControlPoint Id="TiJ6sFGUU5NLI5f70QAEpN" Bounds="563,1050" Alignment="Bottom" />
                     </Node>
-                    <Node Bounds="348,409,105,13" Id="OxAD9g77A8qLcopSpFA40S">
+                    <Node Bounds="347,191,105,13" Id="OxAD9g77A8qLcopSpFA40S">
                       <p:NodeReference LastCategoryFullName="glTF.Scene" LastSymbolSource="VL.glTF.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationNode" Name="ApplyTransforms" />
@@ -5271,7 +5271,7 @@
                       <Pin Id="UgSs9ZjtMZgMWyvDCl4t3R" Name="Node" Kind="InputPin" />
                       <Pin Id="DERWcEiWh05OcBkmzwwNf2" Name="Output" Kind="StateOutputPin" />
                     </Node>
-                    <Node Bounds="589,507,45,22" Id="FneNYACMteTOAIYUOH7XK2">
+                    <Node Bounds="588,289,45,22" Id="FneNYACMteTOAIYUOH7XK2">
                       <p:NodeReference LastCategoryFullName="Collections.Dictionary.Builder" LastSymbolSource="VL.CoreLib.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="Add" />
@@ -5283,7 +5283,7 @@
                       <Pin Id="JqajQ1QJGXDOwrs0ZO4P0u" Name="Output" Kind="StateOutputPin" />
                       <Pin Id="H2joVa1oui8L7Dum8eBu7M" Name="Item" Kind="InputPin" />
                     </Node>
-                    <Node Bounds="630,473,55,22" Id="Ex6L52894rqPpRg07aEdkD">
+                    <Node Bounds="629,255,55,22" Id="Ex6L52894rqPpRg07aEdkD">
                       <p:NodeReference LastCategoryFullName="Collections.KeyValuePair" LastSymbolSource="VL.CoreLib.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <CategoryReference Kind="RecordType" Name="KeyValuePair" />
@@ -5294,19 +5294,19 @@
                       <Pin Id="PyEolVmYULNLCnRcKc0LNN" Name="Output" Kind="StateOutputPin" />
                     </Node>
                   </Patch>
-                  <ControlPoint Id="RfDpbyouKU2MXR5gpBrYL1" Bounds="324,339" Alignment="Top" />
-                  <ControlPoint Id="HIOnGRWrr4fNEa6R5daVEf" Bounds="163,1877" Alignment="Bottom" />
-                  <ControlPoint Id="NmMDdt6d5SsOrgCb30TVx7" Bounds="310,1877" Alignment="Bottom" />
-                  <ControlPoint Id="Ixd5TioJiKhOHxdLIp0rod" Bounds="226,1877" Alignment="Bottom" />
-                  <ControlPoint Id="QnR9REpg7jUNe5pSzii5c1" Bounds="369,1877" Alignment="Bottom" />
-                  <ControlPoint Id="FGH8VXLxZqxMAVRzHA2BIy" Bounds="494,1877" Alignment="Bottom" />
-                  <ControlPoint Id="G4FIiJAHyy2QT1rJ3bpDDN" Bounds="711,1877" Alignment="Bottom" />
-                  <ControlPoint Id="Sjt4P1wIG7NOZIi92LeBrL" Bounds="599,1877" Alignment="Bottom" />
-                  <ControlPoint Id="CWBNqgAza3eQCYoQCCrmS5" Bounds="36,1877" Alignment="Bottom" />
-                  <ControlPoint Id="CWVbvo5fw0TLwsyhuyXZkk" Bounds="597,339" Alignment="Top" />
-                  <ControlPoint Id="RysLvaWG6I7P8qK0bR3l3K" Bounds="597,1877" Alignment="Bottom" />
+                  <ControlPoint Id="RfDpbyouKU2MXR5gpBrYL1" Bounds="323,121" Alignment="Top" />
+                  <ControlPoint Id="HIOnGRWrr4fNEa6R5daVEf" Bounds="162,1659" Alignment="Bottom" />
+                  <ControlPoint Id="NmMDdt6d5SsOrgCb30TVx7" Bounds="309,1659" Alignment="Bottom" />
+                  <ControlPoint Id="Ixd5TioJiKhOHxdLIp0rod" Bounds="225,1659" Alignment="Bottom" />
+                  <ControlPoint Id="QnR9REpg7jUNe5pSzii5c1" Bounds="368,1659" Alignment="Bottom" />
+                  <ControlPoint Id="FGH8VXLxZqxMAVRzHA2BIy" Bounds="493,1659" Alignment="Bottom" />
+                  <ControlPoint Id="G4FIiJAHyy2QT1rJ3bpDDN" Bounds="710,1659" Alignment="Bottom" />
+                  <ControlPoint Id="Sjt4P1wIG7NOZIi92LeBrL" Bounds="598,1659" Alignment="Bottom" />
+                  <ControlPoint Id="CWBNqgAza3eQCYoQCCrmS5" Bounds="35,1659" Alignment="Bottom" />
+                  <ControlPoint Id="CWVbvo5fw0TLwsyhuyXZkk" Bounds="596,121" Alignment="Top" />
+                  <ControlPoint Id="RysLvaWG6I7P8qK0bR3l3K" Bounds="596,1659" Alignment="Bottom" />
                 </Node>
-                <Node Bounds="131,127,74,22" Id="GSttfOs8up8PUexQhspERb">
+                <Node Bounds="130,-91,74,22" Id="GSttfOs8up8PUexQhspERb">
                   <p:NodeReference LastCategoryFullName="glTF.glTF" LastSymbolSource="VL.glTF.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="GetBuffers" />
@@ -5316,7 +5316,7 @@
                   <Pin Id="UwOV9hlPG4sNV7khBzJyKj" Name="Buffers" Kind="OutputPin" />
                   <Pin Id="BW9F58FD6QNMj41zKMGnXr" Name="Loaded" Kind="OutputPin" />
                 </Node>
-                <Node Bounds="319,171,177,100" Id="CMdiCPqL9rDN5X4tvVhN4a">
+                <Node Bounds="318,-47,178,100" Id="CMdiCPqL9rDN5X4tvVhN4a">
                   <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
                     <Choice Kind="ApplicationStatefulRegion" Name="If" />
                     <FullNameCategoryReference ID="Primitive" />
@@ -5325,7 +5325,7 @@
                   <Patch Id="RXvM1OqEwnaMOt4hoDlrsO" ManuallySortedPins="true">
                     <Patch Id="A4rmh1mMDfcLyYuYDroyvo" Name="Create" ManuallySortedPins="true" />
                     <Patch Id="OvLjNz2byniNIYPdN17xYV" Name="Then" ManuallySortedPins="true" />
-                    <Node Bounds="334,215,151,13" Id="HH52UlaUhaUN8asmkMNLAM">
+                    <Node Bounds="333,-3,151,13" Id="HH52UlaUhaUN8asmkMNLAM">
                       <p:NodeReference LastCategoryFullName="glTF.Scene" LastSymbolSource="VL.glTF.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="SampleChannels" />
@@ -5338,10 +5338,10 @@
                       <Pin Id="OP5QnOmWvL4MbntXE1U02m" Name="Transforms" Kind="OutputPin" />
                     </Node>
                   </Patch>
-                  <ControlPoint Id="PbXj6pJw6etPpF1Is6zVqO" Bounds="334,265" Alignment="Bottom" />
-                  <ControlPoint Id="GXFZobq1zikOSZFL4bYIOq" Bounds="361,177" Alignment="Top" />
+                  <ControlPoint Id="PbXj6pJw6etPpF1Is6zVqO" Bounds="333,47" Alignment="Bottom" />
+                  <ControlPoint Id="GXFZobq1zikOSZFL4bYIOq" Bounds="360,-41" Alignment="Top" />
                 </Node>
-                <Node Bounds="317,131,59,13" Id="GjVdOQVFlvlOF8dm29vNNf">
+                <Node Bounds="316,-87,59,13" Id="GjVdOQVFlvlOF8dm29vNNf">
                   <p:NodeReference LastCategoryFullName="Primitive.Object" LastSymbolSource="VL.CoreLib.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="IsAssigned" />
@@ -5351,21 +5351,22 @@
                   <Pin Id="ECgxDotQYWLQbYEkuSsZ79" Name="Not Assigned" Kind="OutputPin" />
                 </Node>
               </Patch>
-              <ControlPoint Id="O02psthakjcM7JFktZaQZa" Bounds="169,-156" Alignment="Top" />
-              <ControlPoint Id="Ueaw7rsyEbgOnOZ79VHdEO" Bounds="173,1920" Alignment="Bottom" />
-              <ControlPoint Id="BaQXPRAQKObQabKCCrlqox" Bounds="237,1920" Alignment="Bottom" />
-              <ControlPoint Id="MHd6QYqoITxL8MOP9ovPrZ" Bounds="317,1920" Alignment="Bottom" />
-              <ControlPoint Id="VhiJ2ZqvbcMOmNNcN5tCeJ" Bounds="-124,1920" Alignment="Bottom" />
-              <ControlPoint Id="Eu7nS9hEjFwLXnbgJ99Nap" Bounds="702,-156" Alignment="Top" />
-              <ControlPoint Id="E244ZSjnsXLNzjzE02Wt61" Bounds="438,1920" Alignment="Bottom" />
-              <ControlPoint Id="J7zOgmfc7MkPMGdLTQta9d" Bounds="527,1920" Alignment="Bottom" />
-              <ControlPoint Id="QJ85Cpd8fhBPZwlUTXwpij" Bounds="729,1920" Alignment="Bottom" />
-              <ControlPoint Id="Rl16QBtHDXuObCbu9q67u2" Bounds="642,1920" Alignment="Bottom" />
-              <ControlPoint Id="NBxVxQqxGeVLOxxJ39ENRw" Bounds="36,1920" Alignment="Bottom" />
-              <ControlPoint Id="Bv8RQuzZE12Np9rMaspKIe" Bounds="72,-156" Alignment="Top" />
+              <ControlPoint Id="O02psthakjcM7JFktZaQZa" Bounds="169,-132" Alignment="Top" />
+              <ControlPoint Id="Ueaw7rsyEbgOnOZ79VHdEO" Bounds="172,1702" Alignment="Bottom" />
+              <ControlPoint Id="BaQXPRAQKObQabKCCrlqox" Bounds="236,1702" Alignment="Bottom" />
+              <ControlPoint Id="MHd6QYqoITxL8MOP9ovPrZ" Bounds="316,1702" Alignment="Bottom" />
+              <ControlPoint Id="VhiJ2ZqvbcMOmNNcN5tCeJ" Bounds="-125,1702" Alignment="Bottom" />
+              <ControlPoint Id="Eu7nS9hEjFwLXnbgJ99Nap" Bounds="702,-132" Alignment="Top" />
+              <ControlPoint Id="E244ZSjnsXLNzjzE02Wt61" Bounds="437,1702" Alignment="Bottom" />
+              <ControlPoint Id="J7zOgmfc7MkPMGdLTQta9d" Bounds="526,1702" Alignment="Bottom" />
+              <ControlPoint Id="QJ85Cpd8fhBPZwlUTXwpij" Bounds="728,1702" Alignment="Bottom" />
+              <ControlPoint Id="Rl16QBtHDXuObCbu9q67u2" Bounds="641,1702" Alignment="Bottom" />
+              <ControlPoint Id="NBxVxQqxGeVLOxxJ39ENRw" Bounds="35,1702" Alignment="Bottom" />
+              <ControlPoint Id="Bv8RQuzZE12Np9rMaspKIe" Bounds="54,-132" Alignment="Top" />
+              <Pin Id="F6pb3o1GAgvO2SWDFGrIK4" Name="Has Changed" Kind="OutputPin" />
             </Node>
-            <ControlPoint Id="VGgOkHtefwyQKTQlCQiNug" Bounds="-129,1972" />
-            <ControlPoint Id="M9KeT3ggp4wQLRUpcPzysW" Bounds="700,-188" />
+            <ControlPoint Id="VGgOkHtefwyQKTQlCQiNug" Bounds="-130,1754" />
+            <ControlPoint Id="M9KeT3ggp4wQLRUpcPzysW" Bounds="699,-164" />
             <!--
 
     ************************ GetAnimationTransform ************************
@@ -6070,9 +6071,9 @@
             </Node>
             <ControlPoint Id="E4hbmZnForcMnI2hsYVx7b" Bounds="637,-361" />
             <ControlPoint Id="BHa4aTov7VkPMlZ2hOvSt2" Bounds="718,-358" />
-            <ControlPoint Id="PYB5Nca4Q1VLmQmSQyF2pP" Bounds="526,1980" />
-            <ControlPoint Id="PzKqTi24yFxP4dqwFd96iW" Bounds="726,1983" />
-            <ControlPoint Id="MXR6Lv4VXh2OxU4Js7fVif" Bounds="649,1982" />
+            <ControlPoint Id="PYB5Nca4Q1VLmQmSQyF2pP" Bounds="525,1762" />
+            <ControlPoint Id="PzKqTi24yFxP4dqwFd96iW" Bounds="725,1765" />
+            <ControlPoint Id="MXR6Lv4VXh2OxU4Js7fVif" Bounds="648,1764" />
             <!--
 
     ************************ ApplyTransforms ************************
@@ -6210,9 +6211,9 @@
               <Pin Id="SswSgJV471ZMeHJoe2Rdzx" Name="Output" Kind="StateOutputPin" />
             </Node>
             <Pad Id="CmfwrIT3prGPrw0fHAJFCP" Comment="" Bounds="-157,-212,40,19" ShowValueBox="true" isIOBox="true" />
-            <ControlPoint Id="CnYUvGgWbGdNDJWUy9FSBJ" Bounds="36,1966" />
-            <ControlPoint Id="NzYrP6dwn7NNdZJMVxRWZO" Bounds="433,2010" />
-            <ControlPoint Id="ImXzePqqf3OLsBbBJB2n00" Bounds="-34,-264" />
+            <ControlPoint Id="CnYUvGgWbGdNDJWUy9FSBJ" Bounds="35,1748" />
+            <ControlPoint Id="NzYrP6dwn7NNdZJMVxRWZO" Bounds="432,1792" />
+            <ControlPoint Id="ImXzePqqf3OLsBbBJB2n00" Bounds="53,-165" />
             <ControlPoint Id="JSglaFtOhtZQFQ53I38qsi" Bounds="280,-786" />
             <!--
 
@@ -6322,7 +6323,7 @@
                         <Node Bounds="997,2254,185,13" Id="RX6eXc9H7vpM4vPTws8bay">
                           <p:NodeReference LastCategoryFullName="Collections" LastSymbolSource="VL.CoreLib.vl" LastDependency="VL.glTF.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                            <Choice Kind="OperationCallFlag" Name="BinarySearch (Lerp)" />
+                            <Choice Kind="OperationCallFlag" Name="BinarySearch (KeyValuePair Lerp)" />
                           </p:NodeReference>
                           <Pin Id="OUZ6biBsEQsPf1lGqB5oFN" Name="Input" Kind="InputPin" />
                           <Pin Id="JTzEx63ryBkPqoVZ1aIfsx" Name="Search Key" Kind="InputPin" />
@@ -6335,7 +6336,6 @@
                           <Pin Id="OAVf65aO5qiNY1eHnYLqBX" Name="Lower Index" Kind="OutputPin" />
                           <Pin Id="MnVxeg5xj0UNOjILdnKEb1" Name="Upper Index" Kind="OutputPin" />
                           <Pin Id="F9ulJ0koWTTNEDh4JVcCLL" Name="Success" Kind="OutputPin" />
-                          <Pin Id="MosLOxaaXueMEjAMRzjROj" Name="Step Count" Kind="OutputPin" />
                         </Node>
                         <Pad Id="KIaEn8VmWzyPrxXI7APxRu" Bounds="1032,2231">
                           <p:TypeAnnotation LastCategoryFullName="Collections" LastSymbolSource="VL.CoreLib.vl">
@@ -6404,7 +6404,7 @@
                         <Node Bounds="996,2502,185,13" Id="VUL2ga8LqawOfOG0owyFRf">
                           <p:NodeReference LastCategoryFullName="Collections" LastSymbolSource="VL.CoreLib.vl" LastDependency="VL.glTF.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                            <Choice Kind="OperationCallFlag" Name="BinarySearch (Lerp)" />
+                            <Choice Kind="OperationCallFlag" Name="BinarySearch (KeyValuePair Lerp)" />
                           </p:NodeReference>
                           <Pin Id="B9vYBhABO1bL7QmeTvPp1Q" Name="Input" Kind="InputPin" />
                           <Pin Id="Ow5lbJIawHKNQJlxnVpC4h" Name="Search Key" Kind="InputPin" />
@@ -6417,7 +6417,6 @@
                           <Pin Id="LSHgRFmOdd2Pm0jJ6y1jiu" Name="Lower Index" Kind="OutputPin" />
                           <Pin Id="HM0Pc8jnWMPObWpfG08bjJ" Name="Upper Index" Kind="OutputPin" />
                           <Pin Id="CJ8t1JgZHV8Nj9ZApIOiHc" Name="Success" Kind="OutputPin" />
-                          <Pin Id="BDPNU70xKJfPiuDy4GYd1W" Name="Step Count" Kind="OutputPin" />
                         </Node>
                         <Pad Id="SqEEd41GOj7OArIMaie8b2" Bounds="1024,2476">
                           <p:TypeAnnotation LastCategoryFullName="Collections" LastSymbolSource="VL.CoreLib.vl">
@@ -6477,7 +6476,7 @@
                         <Node Bounds="995,2013" Id="Eu8siZPSKWQMzmtGFPEhkQ">
                           <p:NodeReference LastCategoryFullName="Collections" LastSymbolSource="VL.CoreLib.vl" LastDependency="VL.glTF.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                            <Choice Kind="OperationCallFlag" Name="BinarySearch (Lerp)" />
+                            <Choice Kind="OperationCallFlag" Name="BinarySearch (KeyValuePair Lerp)" />
                           </p:NodeReference>
                           <Pin Id="Rf7uaIk6SEeNVxNR16yDJ7" Name="Input" Kind="InputPin" />
                           <Pin Id="V71PnAnh4DELTdakOkI2iQ" Name="Search Key" Kind="InputPin" />
@@ -6490,7 +6489,6 @@
                           <Pin Id="KQjfqMSXrbuO5EKuFXmB9a" Name="Lower Index" Kind="OutputPin" />
                           <Pin Id="PE1MBzmSGGSMndAbUaBhO6" Name="Upper Index" Kind="OutputPin" />
                           <Pin Id="DFwikdYjZt8OVOO9Ct1G3l" Name="Success" Kind="OutputPin" />
-                          <Pin Id="S3S931M1HSbMzlFXqvMnky" Name="Step Count" Kind="OutputPin" />
                         </Node>
                         <Pad Id="I6R3GEhtO9oMs0KQSiy7zO" Bounds="1031,1982">
                           <p:TypeAnnotation LastCategoryFullName="Collections" LastSymbolSource="VL.CoreLib.vl">
@@ -6762,6 +6760,7 @@
               <ControlPoint Id="Hxd2nTBWno9LH8lvJ4u9BN" Bounds="163,-315" Alignment="Bottom" />
               <ControlPoint Id="NbkAVUMmIw2QLekv5hFrIW" Bounds="363,-315" Alignment="Bottom" />
               <ControlPoint Id="ELYxggY4wytOIuRYdp6Nr2" Bounds="393,-315" Alignment="Bottom" />
+              <Pin Id="LfsKBfK7Q1EQAYNSOTaunk" Name="Has Changed" Kind="OutputPin" />
             </Node>
             <Node Bounds="279,-655,55,13" Id="GPTw7AwaaYeOTAmylpp66k">
               <p:NodeReference LastCategoryFullName="Adaptive" LastSymbolSource="VL.CoreLib.vl" LastDependency="VL.glTF.vl">

@@ -1,8 +1,8 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50debug35.12.dtd" >
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50debug35.18.dtd" >
    <PATCH nodename="C:\Users\joreg\Documents\repos\vl-others\VL.glTF\vvvv\girlpower\demo.v4p" systemname="demo2" filename="C:\Users\joreg\Documents\repos\vl-others\VL.glTF\vvvv\girlpower\demo2.v4p" scrollx="0" scrolly="0">
-   <BOUNDS type="Window" left="7470" top="0" width="8460" height="13725">
+   <BOUNDS type="Window" left="7470" top="0" width="11175" height="13725">
    </BOUNDS>
-   <PACK Name="addonpack" Version="35.9.0">
+   <PACK Name="addonpack" Version="36.0.0">
    </PACK>
    <NODE nodename="Group (EX9)" id="4" systemname="Group (EX9)">
    <BOUNDS type="Node" left="2520" top="11715" width="0" height="0">
@@ -22,7 +22,7 @@
    <PIN pinname="Layer 4" visible="1" slicecount="1" values="||">
    </PIN>
    </NODE>
-   <NODE nodename="Renderer (EX9)" componentmode="InAWindow" id="5" systemname="Renderer (EX9)">
+   <NODE nodename="Renderer (EX9)" componentmode="InAWindow" id="5" systemname="RENDERER (EX9)">
    <BOUNDS type="Node" left="2520" top="12150" width="0" height="0">
    </BOUNDS>
    <BOUNDS type="Box" left="2520" top="12150" width="2400" height="1800">
@@ -38,6 +38,8 @@
    <PIN pinname="Windowed Antialiasing Quality Level" slicecount="1" values="3">
    </PIN>
    <PIN pinname="Background Color" slicecount="1" values="|0.21687,0.21687,0.21687,1.00000|">
+   </PIN>
+   <PIN pinname="Auto Aspect Ratio" slicecount="1" values="0">
    </PIN>
    </NODE>
    <LINK srcnodeid="4" srcpinname="Layer" dstnodeid="5" dstpinname="Layers">
@@ -442,22 +444,8 @@
    </LINK>
    <LINK srcnodeid="232" srcpinname="Vertex Buffer" dstnodeid="233" dstpinname="Vertex Buffer">
    </LINK>
-   <NODE nodename="IOBox (String)" componentmode="InABox" id="243">
-   <BOUNDS type="Box" left="6630" top="5610" width="1200" height="2460">
-   </BOUNDS>
-   <BOUNDS type="Node" left="6630" top="5610" width="0" height="0">
-   </BOUNDS>
-   <PIN pinname="Default" slicecount="1" values="||">
-   </PIN>
-   <PIN pinname="File Mask" slicecount="1" values="||">
-   </PIN>
-   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
-   </PIN>
-   <PIN pinname="Rows" slicecount="1" values="14">
-   </PIN>
-   </NODE>
    <NODE systemname="Axis (DX9)" filename="%VVVV%\lib\nodes\modules\EX9\Axis (DX9).v4p" nodename="Axis (DX9)" componentmode="Hidden" id="248">
-   <BOUNDS type="Node" left="7395" top="10305" width="100" height="100">
+   <BOUNDS type="Node" left="4410" top="11175" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
    </PIN>
@@ -477,9 +465,11 @@
    </PIN>
    <PIN pinname="Transform" visible="1" slicecount="1" values="||">
    </PIN>
+   <PIN pinname="Mesh" visible="1">
+   </PIN>
+   <PIN pinname="SkinningMatrices" visible="1" slicecount="1" values="||">
+   </PIN>
    </NODE>
-   <LINK srcnodeid="233" srcpinname="Mesh" dstnodeid="249" dstpinname="Mesh">
-   </LINK>
    <LINK srcnodeid="249" srcpinname="Layer" dstnodeid="4" dstpinname="Layer 3">
    </LINK>
    <LINK srcnodeid="196" srcpinname="Texture Out" dstnodeid="249" dstpinname="Texture">
@@ -559,6 +549,8 @@
    </BOUNDS>
    <PIN pinname="Animation Count" visible="1">
    </PIN>
+   <PIN pinname="On Completed" visible="1">
+   </PIN>
    </NODE>
    <LINK srcnodeid="12" srcpinname="Output String" dstnodeid="274" dstpinname="Filename">
    </LINK>
@@ -633,20 +625,16 @@
    <NODE systemname="Scene (glTF)" filename="C:\Users\joreg\Documents\repos\vl-others\VL.glTF\vvvv\girlpower\vl\VVVV.glTF.vl" nodename="Scene (glTF)" componentmode="Hidden" id="282">
    <BOUNDS type="Node" left="1080" top="5325" width="2175" height="270">
    </BOUNDS>
-   <PIN pinname="Time" visible="1" slicecount="1" values="0.07">
+   <PIN pinname="Time" visible="1" slicecount="1" values="||">
    </PIN>
    <PIN pinname="Scene" slicecount="1" values="0">
    </PIN>
    <PIN pinname="Animation" slicecount="1" values="0">
    </PIN>
+   <PIN pinname="Joint Matrices" visible="1">
+   </PIN>
    </NODE>
    <LINK srcnodeid="282" srcpinname="Node Transform" dstnodeid="150" dstpinname="Transform In 1">
-   </LINK>
-   <LINK srcnodeid="282" srcpinname="Pin" dstnodeid="243" dstpinname="Input String">
-   </LINK>
-   <LINK srcnodeid="282" srcpinname="Joint Matrices" dstnodeid="248" dstpinname="Transform">
-   </LINK>
-   <LINK srcnodeid="282" srcpinname="Joint Matrices" dstnodeid="249" dstpinname="SkinningMatrices">
    </LINK>
    <LINK srcnodeid="252" srcpinname="Output String" dstnodeid="282" dstpinname="Node Path">
    </LINK>
@@ -691,5 +679,119 @@
    <LINK srcnodeid="274" srcpinname="Output" dstnodeid="284" dstpinname="Input">
    </LINK>
    <LINK srcnodeid="282" srcpinname="Node Mesh" dstnodeid="284" dstpinname="Meshes">
+   </LINK>
+   <LINK srcnodeid="233" srcpinname="Mesh" dstnodeid="249" dstpinname="Mesh">
+   </LINK>
+   <NODE systemname="FromEX9Mesh (DX11.Geometry)" filename="FromEX9Mesh (DX11.Geometry).v4p" nodename="FromEX9Mesh (DX11.Geometry)" componentmode="Hidden" id="287">
+   <BOUNDS type="Node" left="9045" top="9690" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Mesh" visible="1">
+   </PIN>
+   <PIN pinname="Apply" slicecount="1" visible="1" values="0">
+   </PIN>
+   <PIN pinname="Geometry Out" visible="1">
+   </PIN>
+   <BOUNDS type="Window" left="7995" top="2640" width="9390" height="6060">
+   </BOUNDS>
+   </NODE>
+   <LINK srcnodeid="233" srcpinname="Mesh" dstnodeid="287" dstpinname="Mesh">
+   </LINK>
+   <NODE systemname="Skinning11 (DX11.Effect)" filename="dx11\Skinning11.fx" nodename="Skinning11 (DX11.Effect)" componentmode="Hidden" id="290">
+   <BOUNDS type="Node" left="8820" top="11220" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Geometry" visible="1">
+   </PIN>
+   <PIN pinname="JointMatrices" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Texture" visible="1">
+   </PIN>
+   <PIN pinname="Color" visible="1">
+   </PIN>
+   <PIN pinname="Transform In" visible="1">
+   </PIN>
+   <PIN pinname="Enabled" slicecount="1" values="0">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="287" srcpinname="Geometry Out" dstnodeid="290" dstpinname="Geometry">
+   </LINK>
+   <NODE systemname="FileTexture (DX11 2d)" filename="%VVVV%\packs\dx11\nodes\plugins\base\VVVV.DX11.Nodes.dll" nodename="FileTexture (DX11 2d)" componentmode="Hidden" id="291">
+   <BOUNDS type="Node" left="9480" top="10260" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="9480" top="10260" width="3000" height="3000">
+   </BOUNDS>
+   <PIN pinname="Filename" visible="1">
+   </PIN>
+   <PIN pinname="Texture Out" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="110" srcpinname="Basecolor Texture" dstnodeid="291" dstpinname="Filename">
+   </LINK>
+   <LINK srcnodeid="291" srcpinname="Texture Out" dstnodeid="290" dstpinname="Texture">
+   </LINK>
+   <LINK srcnodeid="142" srcpinname="Output" dstnodeid="290" dstpinname="Color">
+   </LINK>
+   <NODE nodename="Group (DX11.Layer)" id="292">
+   <BOUNDS type="Node" left="8820" top="11655" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Box" left="8820" top="11655" width="2400" height="1800">
+   </BOUNDS>
+   <PIN pinname="Layer 2" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="290" srcpinname="Layer" dstnodeid="292" dstpinname="Layer 1">
+   </LINK>
+   <NODE nodename="Renderer (DX11)" componentmode="InAWindow" id="293">
+   <BOUNDS type="Node" left="8820" top="12090" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Box" left="8820" top="12090" width="2400" height="1800">
+   </BOUNDS>
+   <BOUNDS type="Window" left="810" top="8715" width="6240" height="5085">
+   </BOUNDS>
+   <PIN pinname="View" visible="1">
+   </PIN>
+   <PIN pinname="Projection" visible="1">
+   </PIN>
+   <PIN pinname="Background Color" slicecount="1" values="|0.41201,0.41201,0.41201,1.00000|">
+   </PIN>
+   <PIN pinname="Depth Buffer Mode" slicecount="1" values="Standard">
+   </PIN>
+   <PIN pinname="Depth Buffer Format" slicecount="1" values="D32_Float">
+   </PIN>
+   <PIN pinname="AA Samples per Pixel" slicecount="1" values="4">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="292" srcpinname="Layer Out" dstnodeid="293" dstpinname="Layers">
+   </LINK>
+   <LINK srcnodeid="7" srcpinname="View" dstnodeid="293" dstpinname="View">
+   </LINK>
+   <LINK srcnodeid="7" srcpinname="Projection" dstnodeid="293" dstpinname="Projection">
+   </LINK>
+   <NODE systemname="AxisAndGrid (DX11)" filename="%VVVV%\packs\dx11\nodes\modules\AxisAndGrid\AxisAndGrid (DX11).v4p" nodename="AxisAndGrid (DX11)" componentmode="Hidden" id="294">
+   <BOUNDS type="Node" left="9555" top="11640" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="294" srcpinname="Layer" dstnodeid="292" dstpinname="Layer 2">
+   </LINK>
+   <LINK srcnodeid="187" srcpinname="Output" dstnodeid="290" dstpinname="Transform In">
+   </LINK>
+   <LINK srcnodeid="282" srcpinname="Joint Matrices" dstnodeid="249" dstpinname="SkinningMatrices">
+   </LINK>
+   <LINK srcnodeid="282" srcpinname="Joint Matrices" dstnodeid="248" dstpinname="Transform">
+   </LINK>
+   <LINK srcnodeid="196" srcpinname="Texture Out" dstnodeid="3" dstpinname="Texture">
+   </LINK>
+   <LINK srcnodeid="274" srcpinname="On Completed" dstnodeid="287" dstpinname="Apply">
+   </LINK>
+   <NODE systemname="DynamicBuffer (DX11.Buffer Transform)" filename="%VVVV%\packs\dx11\nodes\plugins\base\VVVV.DX11.Nodes.dll" nodename="DynamicBuffer (DX11.Buffer Transform)" componentmode="Hidden" id="300">
+   <BOUNDS type="Node" left="9780" top="10695" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="9780" top="10695" width="3000" height="3000">
+   </BOUNDS>
+   </NODE>
+   <LINK srcnodeid="300" srcpinname="Buffer" dstnodeid="290" dstpinname="JointMatrices">
+   </LINK>
+   <LINK srcnodeid="282" srcpinname="Joint Matrices" dstnodeid="300" dstpinname="Data">
    </LINK>
    </PATCH>
