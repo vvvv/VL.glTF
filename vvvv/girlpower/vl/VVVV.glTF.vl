@@ -244,6 +244,7 @@
               <Pin Id="KyjmZOM3v1uNfizUi6A6lr" Name="Scene Count" Kind="OutputPin" />
               <Pin Id="IQnn3SWVvgQLwBelFTlxmA" Name="Default Scene" Kind="OutputPin" />
               <Pin Id="RLhxadj09mvPTmvL5T2UJ0" Name="Animation Count" Kind="OutputPin" />
+              <Pin Id="LWqTiuFb8CpP14F7El2VzJ" Name="Extensions" Kind="OutputPin" />
             </Node>
             <ControlPoint Id="MTUHQlltKeSMAFvb0mNwvu" Bounds="342,212" />
             <ControlPoint Id="JFqlWPGTcxRNDQ2E9HzBzs" Bounds="282,285" />
@@ -252,7 +253,8 @@
             <ControlPoint Id="Uf9nIV9W4WZPf1MOFY5Pmq" Bounds="499,285" />
             <ControlPoint Id="GgR2QSTaXgQMhGGQmHF1GQ" Bounds="574,285" />
             <ControlPoint Id="J2246vJMddCPc6RUwYz5vh" Bounds="662,285" />
-            <ControlPoint Id="MknOM69WxbTMRxbqbYr9NZ" Bounds="755,285" />
+            <ControlPoint Id="MknOM69WxbTMRxbqbYr9NZ" Bounds="756,285" />
+            <ControlPoint Id="E4FcnQ3zTmzLKcYpMhSybh" Bounds="814,255" />
           </Canvas>
           <Patch Id="StdCrAEKrgtNVSET8yQA5i" Name="Create" />
           <Patch Id="E4UdqaHbTffLe6eoUCP8lS" Name="Update">
@@ -264,6 +266,7 @@
             <Pin Id="ShygQVVNZ4IMSZTFyfgccv" Name="Scene Count" Kind="OutputPin" />
             <Pin Id="Saft09C45IvL5f5lmFiSm7" Name="Default Scene" Kind="OutputPin" />
             <Pin Id="FpHH7qrV1WSP1tgJC0e5rr" Name="Animation Count" Kind="OutputPin" />
+            <Pin Id="PE3988AVNsYM87bVADqeon" Name="Extensions" Kind="OutputPin" Bounds="814,255" />
           </Patch>
           <ProcessDefinition Id="DKgI7RyNJkOM13iNZcFBQJ">
             <Fragment Id="U1HMsRYUgIWPEzVHfZJhiW" Patch="StdCrAEKrgtNVSET8yQA5i" Enabled="true" />
@@ -285,6 +288,8 @@
           <Link Id="Do4ELkf0Fn4MKWUUyCvxYd" Ids="IQnn3SWVvgQLwBelFTlxmA,J2246vJMddCPc6RUwYz5vh" />
           <Link Id="J2VGfcoVdDFNeMZBgqE7qS" Ids="MknOM69WxbTMRxbqbYr9NZ,FpHH7qrV1WSP1tgJC0e5rr" IsHidden="true" />
           <Link Id="UXGCp5M3G1wMm1K6FUS03B" Ids="RLhxadj09mvPTmvL5T2UJ0,MknOM69WxbTMRxbqbYr9NZ" />
+          <Link Id="J0VBKtjTIh0M75JSrUm1vP" Ids="LWqTiuFb8CpP14F7El2VzJ,E4FcnQ3zTmzLKcYpMhSybh" />
+          <Link Id="DBxMKEGkGYfOM5f9dLwQ9c" Ids="E4FcnQ3zTmzLKcYpMhSybh,PE3988AVNsYM87bVADqeon" IsHidden="true" />
         </Patch>
       </Node>
       <!--
@@ -306,8 +311,8 @@
                   <p:OuterCategoryReference Kind="Category" NeedsToBeDirectParent="true" />
                 </CategoryReference>
               </p:NodeReference>
-              <Pin Id="I3vP3w7OSjFOE4PgvhmAmH" Name="Scene" Kind="InputPin" />
               <Pin Id="FbYgTulhyA3OyqzZFlrrSr" Name="Input" Kind="InputPin" />
+              <Pin Id="I3vP3w7OSjFOE4PgvhmAmH" Name="Scene" Kind="InputPin" />
               <Pin Id="SD7EsfgHFJeMMo3gHoc5NB" Name="Animation" Kind="InputPin" />
               <Pin Id="OzN6VlrnXHiNeCy4zFGuoi" Name="Node Path" Kind="InputPin" />
               <Pin Id="FjhiTnWOZ2HNB8FcKiUVfc" Name="Time" Kind="InputPin" />
@@ -434,6 +439,141 @@
           <Link Id="Jp8OV0XDAlzLIbtyh4blE6" Ids="P4wCFe4BOpoMV3MSeBphUs,PVAJAuvSR9fMkpTxoj25wl" IsHidden="true" />
           <Link Id="M2p0JxNoH3xNUegDCaKwS2" Ids="QsyOQIefx0APG4ZW4rLBsF,ADXnDhK5T97O7NymTadCwp" />
           <Link Id="I1mS93X6ecNMvcxDEIiPWc" Ids="E2sJqejcayvMIKxNH9WmSt,QsyOQIefx0APG4ZW4rLBsF" IsHidden="true" />
+        </Patch>
+      </Node>
+      <!--
+
+    ************************ Hierarchy ************************
+
+-->
+      <Node Name="Hierarchy" Bounds="620,100" Id="Q2sV6yp2ATHOOSWflySILO">
+        <p:NodeReference>
+          <Choice Kind="ContainerDefinition" Name="Process" />
+          <FullNameCategoryReference ID="Primitive" />
+        </p:NodeReference>
+        <Patch Id="Ar4ORCRvjp4MyR0Z2odfY3">
+          <Canvas Id="TzzdZMOwWJgPDdciO3zzTJ">
+            <Node Bounds="319,310,85,13" AutoConnect="true" Id="AcRw9NH1pJRORmXvlgFtc3">
+              <p:NodeReference LastCategoryFullName="glTF" LastSymbolSource="VL.glTF.vl" LastDependency="VVVV.glTF.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="ProcessNode" Name="Hierarchy" />
+              </p:NodeReference>
+              <Pin Id="E79pcipqxQePnEGrfCsE7D" Name="Input" Kind="InputPin" />
+              <Pin Id="JaRJPtIzm2QNQOp4n8Wc7s" Name="Scene Index" Kind="InputPin" />
+              <Pin Id="EiMttUdBTQUL64VIpgUubv" Name="Node IDs" Kind="OutputPin" />
+              <Pin Id="VJ4qM5Ol5PtNTnIz5UBqbA" Name="Transform" Kind="OutputPin" />
+              <Pin Id="NSsTYgCxakVQFomxIdvBhI" Name="ID" Kind="OutputPin" />
+              <Pin Id="VNf6l7G1bVtMUDEBm4PDY8" Name="Has Mesh" Kind="OutputPin" />
+              <Pin Id="OAScMeEY5PGO6uQo6erFsy" Name="Primitive Count" Kind="OutputPin" />
+              <Pin Id="SsyGwdgFLUPOcjhjFCT4E0" Name="Animation" Kind="InputPin" />
+              <Pin Id="BbIh2MzgCXEPuRVieeVOy7" Name="Time" Kind="InputPin" />
+              <Pin Id="CSKDN87Us27NstaJsc0BQN" Name="Output" Kind="OutputPin" />
+              <Pin Id="EPcz8jAM9OoOY2u9SfCtuq" Name="Animations" Kind="OutputPin" />
+            </Node>
+          </Canvas>
+          <Patch Id="Ewk9K0o9761MAhBLqCGnun" Name="Create" />
+          <Patch Id="Baqgi0hyOOyQCwU9nja7vD" Name="Update">
+            <Pin Id="CuXB9v7uXcCMb9j8tzwryo" Name="Input" Kind="InputPin" />
+            <Pin Id="HpU0v9djZ58LKxvXXzgTRp" Name="Scene Index" Kind="InputPin" />
+            <Pin Id="G87QE2w3zpFNYyOkM2DeH0" Name="Has Mesh" Kind="OutputPin" />
+            <Pin Id="LjJNctrPMpSOlr2Ilf31CI" Name="Transform" Kind="OutputPin" />
+            <Pin Id="L7s7QnQMZ0QNQfo9tpMJWG" Name="Primitive Count" Kind="OutputPin" />
+            <Pin Id="TrT9eP9FKaKOCxFTIxfGSW" Name="ID" Kind="OutputPin" />
+            <Pin Id="Ou0c8N7RTScPBU6w0W7vMi" Name="Node IDs" Kind="OutputPin" />
+            <Pin Id="EfcfEqvCOk8QINnpAuahAR" Name="Animation" Kind="InputPin" />
+            <Pin Id="HL16AHysHFPN8i1B7SaufD" Name="Time" Kind="InputPin" />
+            <Pin Id="DHd1YYAsfG8PQl6SpzcZFa" Name="Output" Kind="OutputPin" />
+            <Pin Id="GnEQATKZwdMLSAProqCl4b" Name="Animations" Kind="OutputPin" />
+          </Patch>
+          <ProcessDefinition Id="IMJBeaPKrqUOYDYCQrOuRf">
+            <Fragment Id="PFHVN6bnNIuQIKG8gSh0F8" Patch="Ewk9K0o9761MAhBLqCGnun" Enabled="true" />
+            <Fragment Id="UU4g2qVDLn0NcGnI2VvoWF" Patch="Baqgi0hyOOyQCwU9nja7vD" Enabled="true" />
+          </ProcessDefinition>
+        </Patch>
+      </Node>
+      <!--
+
+    ************************ Animation ************************
+
+-->
+      <Node Name="Animation" Category="VVVV.glTF" Bounds="620,200" Id="Q9ZmTy2JwQMNWroAyOS0l3">
+        <p:NodeReference>
+          <Choice Kind="ContainerDefinition" Name="Process" />
+          <FullNameCategoryReference ID="Primitive" />
+        </p:NodeReference>
+        <Patch Id="BkBVmjdFpzBOKOJ4cRQHXv">
+          <Canvas Id="H7n4wkhx7eIOvrfSHmGMMY">
+            <Node Bounds="230,176" AutoConnect="true" Id="GkRtzFuueHKOxJFn6wA8dw">
+              <p:NodeReference LastCategoryFullName="glTF" LastSymbolSource="VL.glTF.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="ProcessAppFlag" Name="Animation" />
+                <CategoryReference Kind="Category" Name="glTF" NeedsToBeDirectParent="true">
+                  <p:OuterCategoryReference Kind="Category" NeedsToBeDirectParent="true" />
+                </CategoryReference>
+              </p:NodeReference>
+              <Pin Id="Sn73ssJK0uaL6l4Z6ZtQWw" Name="Input" Kind="InputPin" />
+              <Pin Id="CgUpDHIBhgtNBNmP8apGIl" Name="Animation" Kind="InputPin" />
+              <Pin Id="MuB9uTItAfVQO2xwtiXQMq" Name="Channel" Kind="OutputPin" />
+              <Pin Id="OGBTW5l1VvRNh2CD9aSlvA" Name="From" Kind="OutputPin" />
+              <Pin Id="QQasAHmatYPNTUA7LM3i8n" Name="To" Kind="OutputPin" />
+            </Node>
+          </Canvas>
+          <Patch Id="O9amAS0YR89MyJzPHBoC0c" Name="Create" />
+          <Patch Id="L2MsShvYXimP2OR9Oz6GAo" Name="Update">
+            <Pin Id="DJgvo6nBEOrQPrq90DyB7j" Name="Input" Kind="InputPin" />
+            <Pin Id="UklJsE4JuiaO6wTmNkjvRI" Name="Animation" Kind="InputPin" />
+            <Pin Id="AQG2RvXH59GP2mqU1dJdE9" Name="From" Kind="OutputPin" />
+            <Pin Id="LTPIIysP67UOJmfY0hNcSq" Name="To" Kind="OutputPin" />
+            <Pin Id="Gic4b5eWcMfOogYRSN5Plg" Name="Channel" Kind="OutputPin" />
+          </Patch>
+          <ProcessDefinition Id="DiGzBVdmfxrNHcWbc6J3nU">
+            <Fragment Id="U33VWsRtYHSPpjVSsTrIis" Patch="O9amAS0YR89MyJzPHBoC0c" Enabled="true" />
+            <Fragment Id="BVyReKmjTIEND9bJw0Lfqe" Patch="L2MsShvYXimP2OR9Oz6GAo" Enabled="true" />
+          </ProcessDefinition>
+        </Patch>
+      </Node>
+      <!--
+
+    ************************ Skin ************************
+
+-->
+      <Node Name="Skin" Bounds="620,300" Id="MK8G27f1E0xMuLG32yXftv">
+        <p:NodeReference>
+          <Choice Kind="ContainerDefinition" Name="Process" />
+          <FullNameCategoryReference ID="Primitive" />
+        </p:NodeReference>
+        <Patch Id="RUbk2TP5evoMbo5KAPFPnp">
+          <Canvas Id="LeJy6yNSOW6MOjHv9LaTr5">
+            <Node Bounds="363,183,45,13" AutoConnect="true" Id="SiB5NNSnQtfPnnbPWnjT1t">
+              <p:NodeReference LastCategoryFullName="glTF" LastSymbolSource="VL.glTF.vl" LastDependency="VVVV.glTF.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="ProcessAppFlag" Name="Skin" />
+                <CategoryReference Kind="Category" Name="glTF" NeedsToBeDirectParent="true">
+                  <p:OuterCategoryReference Kind="Category" NeedsToBeDirectParent="true" />
+                </CategoryReference>
+              </p:NodeReference>
+              <Pin Id="RaGtDUdDbacMlfqNkkv4QL" Name="Animations" Kind="InputPin" />
+              <Pin Id="EMd7MlThl0OLEmF1v8gvjP" Name="Input" Kind="InputPin" />
+              <Pin Id="PdY0E7berFHNdbBRaEkhiV" Name="Hierarchy" Kind="InputPin" />
+              <Pin Id="U1DuzdxXXScNqUVcGSUFiN" Name="Joint Matrices" Kind="OutputPin" />
+            </Node>
+          </Canvas>
+          <Patch Id="LlEwKGKnNo2OoK1tTDZiDK" Name="Create" />
+          <Patch Id="Sw1FfU1GwO9P87IoN5xiqj" Name="Update">
+            <Pin Id="EM4ED9Bc9AGLkC6wTODp7V" Name="Input" Kind="InputPin" />
+            <Pin Id="C5TC0Y1ufDvQIeDSOQ55ri" Name="Hierarchy" Kind="InputPin" />
+            <Pin Id="EfFzZQ18MQLMgnnCBxkplp" Name="Animations" Kind="InputPin" />
+            <Pin Id="T1a6Z5gQlIcN0WMDWJ9hx9" Name="Joint Matrices" Kind="OutputPin" />
+          </Patch>
+          <!--
+
+    ************************  ************************
+
+-->
+          <ProcessDefinition Id="JZLOzimhfk5QcyBQ9Huf3T">
+            <Fragment Id="SUjvcuOUwrYLDmJ4QiEL03" Patch="LlEwKGKnNo2OoK1tTDZiDK" Enabled="true" />
+            <Fragment Id="Maus7U35b9mOeLafSMsObL" Patch="Sw1FfU1GwO9P87IoN5xiqj" Enabled="true" />
+          </ProcessDefinition>
         </Patch>
       </Node>
     </Canvas>
