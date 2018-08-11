@@ -491,7 +491,6 @@
             <Fragment Id="PFHVN6bnNIuQIKG8gSh0F8" Patch="Ewk9K0o9761MAhBLqCGnun" Enabled="true" />
             <Fragment Id="UU4g2qVDLn0NcGnI2VvoWF" Patch="Baqgi0hyOOyQCwU9nja7vD" Enabled="true" />
           </ProcessDefinition>
-          <Pin Id="Kbx0uCdJ2nzLeJ9JLtDBpE" Name="Node Mesh" Kind="OutputPin" />
         </Patch>
       </Node>
       <!--
@@ -571,6 +570,61 @@
           <ProcessDefinition Id="JZLOzimhfk5QcyBQ9Huf3T">
             <Fragment Id="SUjvcuOUwrYLDmJ4QiEL03" Patch="LlEwKGKnNo2OoK1tTDZiDK" Enabled="true" />
             <Fragment Id="Maus7U35b9mOeLafSMsObL" Patch="Sw1FfU1GwO9P87IoN5xiqj" Enabled="true" />
+          </ProcessDefinition>
+        </Patch>
+      </Node>
+      <!--
+
+    ************************ Hierarchy2 ************************
+
+-->
+      <Node Name="Hierarchy2" Bounds="621,143" Id="PzrcooSNwT7MzKhvZOl7HR">
+        <p:NodeReference>
+          <Choice Kind="ContainerDefinition" Name="Process" />
+          <FullNameCategoryReference ID="Primitive" />
+        </p:NodeReference>
+        <Patch Id="AZgazrhwYQUPnde9qRRtkY">
+          <Canvas Id="QYmUHaAMbTeM0JR52nVCrV">
+            <Node Bounds="319,310,85,13" AutoConnect="true" Id="S32vWbkhU2RMrXIErfB05S">
+              <p:NodeReference LastCategoryFullName="glTF" LastSymbolSource="VL.glTF.vl" LastDependency="VVVV.glTF.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="ProcessAppFlag" Name="Hierarchy2" />
+                <CategoryReference Kind="Category" Name="glTF" NeedsToBeDirectParent="true">
+                  <p:OuterCategoryReference Kind="Category" NeedsToBeDirectParent="true" />
+                </CategoryReference>
+              </p:NodeReference>
+              <Pin Id="Km2rxRyAQmOMjP7M36KJ33" Name="Input" Kind="InputPin" />
+              <Pin Id="FYH15FCvsw3OElL4BMb1r9" Name="Scene Index" Kind="InputPin" />
+              <Pin Id="Nm6s9AATMzWO1CmoSX7pCj" Name="Animation" Kind="InputPin" />
+              <Pin Id="BeWz7ZhleLlP3HhlK9JUtv" Name="Time" Kind="InputPin" />
+              <Pin Id="TLIwqMlNngCOBeblutJUNs" Name="Node IDs" Kind="OutputPin" />
+              <Pin Id="TLdMPwKwosZOg5NCnpaFBk" Name="Transform" Kind="OutputPin" />
+              <Pin Id="Spy2PMlkdzEPmLJd2odwIi" Name="ID" Kind="OutputPin" />
+              <Pin Id="JGcTUbzPiUXNdZ7g9dsKjT" Name="Has Mesh" Kind="OutputPin" />
+              <Pin Id="TGwV0tZmc4POnV0XCDqT0c" Name="Node Mesh" Kind="OutputPin" />
+              <Pin Id="LCCfzOuOyCYO2xzsGyBwtP" Name="Primitive Count" Kind="OutputPin" />
+              <Pin Id="OPbMmcYqoOXLcINhhBwCmJ" Name="Output" Kind="OutputPin" />
+              <Pin Id="G0g3tad93ALNZXcs6vUuZS" Name="Animations" Kind="OutputPin" />
+            </Node>
+          </Canvas>
+          <Patch Id="RYlfHDnXJCOPdjS9YHmTQW" Name="Create" />
+          <Patch Id="V7kVwbBhLcsLvhBYBvpp3W" Name="Update">
+            <Pin Id="Fi28PEYMQCvLSknsu6URGs" Name="Input" Kind="InputPin" />
+            <Pin Id="KjJzXLVd2uENhHmotSIZSE" Name="Scene Index" Kind="InputPin" />
+            <Pin Id="VE1wy7CWhyaOywDlE4zUrE" Name="Has Mesh" Kind="OutputPin" />
+            <Pin Id="Q4EH4z3RiLMNuW1dlEBgyl" Name="Transform" Kind="OutputPin" />
+            <Pin Id="Dtcg9Bu4miwQYD2enS8krn" Name="Primitive Count" Kind="OutputPin" />
+            <Pin Id="MiTKUd31HtdP2tSeaZh4TU" Name="ID" Kind="OutputPin" />
+            <Pin Id="IOxnV9jXkdWLN22Y9CuYpW" Name="Node IDs" Kind="OutputPin" />
+            <Pin Id="MVIFghBVcIcMBOjCB2Kivj" Name="Animation" Kind="InputPin" />
+            <Pin Id="PIGl0KykIs4PP2yNAS0n11" Name="Time" Kind="InputPin" />
+            <Pin Id="KTW33SaBFnoPnRYFGqiulK" Name="Output" Kind="OutputPin" />
+            <Pin Id="Btu7gyPj6FSO2KyyBCXhrC" Name="Animations" Kind="OutputPin" />
+            <Pin Id="HYFwg1vXtYpO5Yv5zrPQUd" Name="Node Mesh" Kind="OutputPin" />
+          </Patch>
+          <ProcessDefinition Id="AHYcsU1DGjCLPkF30witrX">
+            <Fragment Id="M47sXwVrUNYQMAPhj8qLnj" Patch="RYlfHDnXJCOPdjS9YHmTQW" Enabled="true" />
+            <Fragment Id="ADWy1rATi3mMqTA8rGGBZg" Patch="V7kVwbBhLcsLvhBYBvpp3W" Enabled="true" />
           </ProcessDefinition>
         </Patch>
       </Node>
