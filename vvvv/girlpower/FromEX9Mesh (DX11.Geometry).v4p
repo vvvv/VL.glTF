@@ -1,6 +1,6 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50debug35.18.dtd" >
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.18.dtd" >
    <PATCH nodename="C:\Users\joreg\Documents\repos\vl-others\VL.glTF\vvvv\girlpower\FromEX9Mesh (DX11.Geometry).v4p" systemname="FromEX9Mesh (DX11.Geometry)" filename="C:\Users\joreg\Documents\repos\vl-others\VL.glTF\vvvv\girlpower\FromEX9Mesh (DX11.Geometry).v4p" scrollx="765" scrolly="0">
-   <BOUNDS type="Window" left="7995" top="2640" width="9390" height="6060">
+   <BOUNDS type="Window" left="9015" top="9345" width="9390" height="6060">
    </BOUNDS>
    <NODE systemname="VertexBuffer (EX9.Geometry Split)" nodename="VertexBuffer (EX9.Geometry Split)" componentmode="Hidden" id="0">
    <BOUNDS type="Node" left="1815" top="1860" width="100" height="100">
@@ -136,8 +136,6 @@
    </LINK>
    <LINK srcnodeid="7" srcpinname="Count" dstnodeid="5" dstpinname="Vertices Count">
    </LINK>
-   <LINK srcnodeid="2" srcpinname="Indices" dstnodeid="5" dstpinname="Indices">
-   </LINK>
    <NODE systemname="Count (Value)" nodename="Count (Value)" componentmode="Hidden" id="8">
    <BOUNDS type="Node" left="2925" top="3315" width="100" height="100">
    </BOUNDS>
@@ -236,4 +234,22 @@
    </LINK>
    <PACK Name="addonpack" Version="36.0.0">
    </PACK>
+   <PACK Name="dx11" Version="1.2">
+   </PACK>
+   <NODE systemname="Reverse (Spreads Vector)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="Reverse (Spreads Vector)" componentmode="Hidden" id="15">
+   <BOUNDS type="Node" left="3030" top="1800" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="3030" top="1800" width="3000" height="3000">
+   </BOUNDS>
+   <PIN pinname="Input" visible="1">
+   </PIN>
+   <PIN pinname="Bin Size" slicecount="1" values="3">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="2" srcpinname="Indices" dstnodeid="15" dstpinname="Input">
+   </LINK>
+   <LINK srcnodeid="15" srcpinname="Output" dstnodeid="5" dstpinname="Indices">
+   </LINK>
    </PATCH>
