@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="GB2VxUl5VdhM5rsl5IbjQg" Version="0.92">
+<Document xmlns:p="property" Id="GB2VxUl5VdhM5rsl5IbjQg" LanguageVersion="2019.1.0-0959-g3a31ab0c51" Version="0.128">
   <NugetDependency Id="RKFCmk1Lg5EP3I4IQegLTw" Location="VL.CoreLib" Version="0.35.21" />
   <NugetDependency Id="U2JwHqMJLyGLDs97lM6eZ6" Location="VL.CoreLib.VVVV" Version="0.35.21" />
+  <DocumentDependency Id="B9C971d19OtLNV97HvU75N" Location="../../../VL.glTF.vl" />
   <Patch Id="Th8hpfHvBF4Lk6VOwDCc9D">
     <Canvas Id="NtZT52Xp5qNOXK0fF2H7kv" DefaultCategory="VVVV.glTF" CanvasType="FullCategory">
       <!--
@@ -18,9 +19,9 @@
           <Patch Id="ESJZDDS0I02LAWDOx9RJVV" Name="Create" />
           <Patch Id="OkqGvJfa3PDOppp4PFQghD" Name="Update">
             <Pin Id="FpAMcJGWeh8LhHNPCfvbCu" Name="Filename" Kind="InputPin" />
+            <Pin Id="TCoVD469BBQLNrPulvbl8d" Name="Load" Kind="InputPin" />
             <Pin Id="ML7i9BXLrecNDPVWwTTsPU" Name="Output" Kind="OutputPin" />
             <Pin Id="BVj4JYZUvaJL562yc17yB1" Name="Success" Kind="OutputPin" />
-            <Pin Id="TCoVD469BBQLNrPulvbl8d" Name="Load" Kind="InputPin" />
           </Patch>
           <Canvas Id="C4yd3S6BFv9NWqJ2WO3OFi" CanvasType="Group">
             <Node Bounds="238,261,125,13" Id="EtqDJdU17GpN3imZWJKtNJ">
@@ -99,14 +100,14 @@
           </Canvas>
           <Patch Id="M2whFEJMVWtLKMiLix0awG" Name="Create" />
           <Patch Id="Orq5hSR2Ut3LRtQmWiIRlq" Name="Update">
+            <Pin Id="Nla6Y3e2b35NW3QEaO4NFV" Name="Input" Kind="InputPin" Bounds="281,135" />
+            <Pin Id="Ri7hyshzVlAMnxhkstZR3h" Name="Index" Kind="InputPin" Bounds="425,139" />
             <Pin Id="ERTtE06428JPRZsCiLe6u2" Name="Basecolor Texture" Kind="OutputPin" Bounds="272,239" />
             <Pin Id="CppRkPdRsXfNur1URW15Ik" Name="Basecolor Factors" Kind="OutputPin" Bounds="300,210" />
-            <Pin Id="Nla6Y3e2b35NW3QEaO4NFV" Name="Input" Kind="InputPin" Bounds="281,135" />
             <Pin Id="UpegyqlQG6QL2nBPRq2u3t" Name="MetallicRoughness Texture" Kind="OutputPin" />
             <Pin Id="BmAgJJsZE6VLPIsQAdwz0U" Name="Metallic Factor" Kind="OutputPin" />
             <Pin Id="NJittUoS52eMZCLcvOftw1" Name="Roughness Factor" Kind="OutputPin" />
             <Pin Id="U2xFdnANheFNT9pD6wewQc" Name="Emissive Texture" Kind="OutputPin" />
-            <Pin Id="Ri7hyshzVlAMnxhkstZR3h" Name="Index" Kind="InputPin" Bounds="425,139" />
             <Pin Id="SMsTKxo8PjUPJ11oI72BdS" Name="Normal Texture" Kind="OutputPin" />
             <Pin Id="AGCDI17ShoWN7fgg9I7a5k" Name="Occlusion Texture" Kind="OutputPin" />
           </Patch>
@@ -179,12 +180,12 @@
           </Canvas>
           <Patch Id="BmdyXz1V7BQL2gudR3Q56D" Name="Create" />
           <Patch Id="VpxyqvYeWXyMdXmP9nw6PL" Name="Update">
-            <Pin Id="VNtBJJ7isqpQbWqkmUzPFE" Name="Vertices" Kind="OutputPin" />
             <Pin Id="S8WIMNm2cTpMnMnKax8kJC" Name="Input" Kind="InputPin" Bounds="296,196" />
+            <Pin Id="Kydk65jyfX5My6t8L9j7Cu" Name="Meshes" Kind="InputPin" Bounds="487,208" />
+            <Pin Id="VNtBJJ7isqpQbWqkmUzPFE" Name="Vertices" Kind="OutputPin" />
             <Pin Id="O89Itdt9ygwMwZ8hZMoWl1" Name="Normals" Kind="OutputPin" Bounds="416,289" />
             <Pin Id="ULWJfhbU6A0N6G4ItoyX49" Name="Tangents" Kind="OutputPin" Bounds="377,288" />
             <Pin Id="UH9Gn5nLJBsMouPtkB2AAf" Name="UVs" Kind="OutputPin" />
-            <Pin Id="Kydk65jyfX5My6t8L9j7Cu" Name="Meshes" Kind="InputPin" Bounds="487,208" />
             <Pin Id="Qsz6a7JFdmUNBnqKO8cEVY" Name="Indices" Kind="OutputPin" />
             <Pin Id="Eqo7FisyJ7wP0LZ5Uy4JwR" Name="Material ID" Kind="OutputPin" />
             <Pin Id="Ewc02yyYXqYQcxgfzHosUf" Name="Joints" Kind="OutputPin" Bounds="661,289" />
@@ -257,8 +258,8 @@
           </Canvas>
           <Patch Id="StdCrAEKrgtNVSET8yQA5i" Name="Create" />
           <Patch Id="E4UdqaHbTffLe6eoUCP8lS" Name="Update">
-            <Pin Id="FVKAhvWH29aOXqSZiJMbUy" Name="Copyright" Kind="OutputPin" />
             <Pin Id="QSpUk88LkoZPiJS1b9FCZg" Name="Input" Kind="InputPin" />
+            <Pin Id="FVKAhvWH29aOXqSZiJMbUy" Name="Copyright" Kind="OutputPin" />
             <Pin Id="PEuEffP6lTbNmPxJpt73KW" Name="Generator" Kind="OutputPin" />
             <Pin Id="ETqrOOIIWB0OCjXQRP3kco" Name="Version" Kind="OutputPin" />
             <Pin Id="E2vG6asbWPgO8xiD6v5uCm" Name="Min Version" Kind="OutputPin" />
@@ -322,8 +323,8 @@
           <Patch Id="Ljf36ff5XjxOaQ0eeCDVB7" Name="Create" />
           <Patch Id="UpSN46KOZm8L9dDFszxDJk" Name="Update">
             <Pin Id="IxEedm19d5lNHzUhMLkDTL" Name="Input" Kind="InputPin" Bounds="326,136" />
-            <Pin Id="PVAJAuvSR9fMkpTxoj25wl" Name="Output" Kind="OutputPin" Bounds="324,222" />
             <Pin Id="E2sJqejcayvMIKxNH9WmSt" Name="Camera" Kind="InputPin" Bounds="413,147" />
+            <Pin Id="PVAJAuvSR9fMkpTxoj25wl" Name="Output" Kind="OutputPin" Bounds="324,222" />
           </Patch>
           <ProcessDefinition Id="VHoKLTtjMQhLIddQIXrkBv">
             <Fragment Id="QOaclGvrQpIMTc18Spqw8L" Patch="Ljf36ff5XjxOaQ0eeCDVB7" Enabled="true" />
@@ -526,16 +527,16 @@
             <Patch Id="DwUSs0FmOOFP9t7sryinMY" Name="Create" />
             <Patch Id="HQaKuDUG3FEMtK5wjBPa1l" Name="Update">
               <Pin Id="L7yA8GbLgVbP52KjeHUBDl" Name="Input" Kind="InputPin" />
-              <Pin Id="DtkrqXbBdQqQKN6o5uixEs" Name="Name" Kind="OutputPin" Bounds="375,318" />
-              <Pin Id="Utb4wdQq0rBMNM8qWBfZCY" Name="Joint Matrices" Kind="OutputPin" Bounds="255,396" />
               <Pin Id="M0W9GQlh8xwLDOUuV1mOM7" Name="Scene" Kind="InputPin" Bounds="219,168" />
-              <Pin Id="Lh6yJi7XMNBQZNGZAI42Sk" Name="Node Name" Kind="OutputPin" Bounds="487,314" />
               <Pin Id="JhFT3JMGB8PMO3bniaMpk0" Name="Animation" Kind="InputPin" Bounds="316,244" />
               <Pin Id="AXloPT70zEQPU39XPuWOu9" Name="Node Path" Kind="InputPin" Bounds="408,199" />
-              <Pin Id="D8tSqIhnbfGLtDRjoIFmTT" Name="Node Mesh" Kind="OutputPin" Bounds="561,321" />
               <Pin Id="RHPAqvXYt2rLXrOYpeq1WW" Name="Transform" Kind="InputPin" Bounds="500,193" />
-              <Pin Id="RBoBh3YEi79La5v0fx9pSF" Name="Node Transform" Kind="OutputPin" Bounds="577,313" />
               <Pin Id="CB6pEGAT52vQAZTbvWXtW6" Name="Time" Kind="InputPin" Bounds="456,236" />
+              <Pin Id="DtkrqXbBdQqQKN6o5uixEs" Name="Name" Kind="OutputPin" Bounds="375,318" />
+              <Pin Id="Utb4wdQq0rBMNM8qWBfZCY" Name="Joint Matrices" Kind="OutputPin" Bounds="255,396" />
+              <Pin Id="Lh6yJi7XMNBQZNGZAI42Sk" Name="Node Name" Kind="OutputPin" Bounds="487,314" />
+              <Pin Id="D8tSqIhnbfGLtDRjoIFmTT" Name="Node Mesh" Kind="OutputPin" Bounds="561,321" />
+              <Pin Id="RBoBh3YEi79La5v0fx9pSF" Name="Node Transform" Kind="OutputPin" Bounds="577,313" />
               <Pin Id="IlvZigLS2mbQOoaW6rqPZ0" Name="Camera Name" Kind="OutputPin" Bounds="675,313" />
               <Pin Id="QXviP3age3EMfLHet4FQZN" Name="Camera ID" Kind="OutputPin" Bounds="570,355" />
               <Pin Id="QHIINvamjICOVXEjOM1Dhm" Name="Camera Transform" Kind="OutputPin" Bounds="754,308" />
@@ -576,6 +577,30 @@
         </Node>
       </Canvas>
     </Canvas>
+    <!--
+
+    ************************ Application ************************
+
+-->
+    <Node Name="Application" Bounds="100,100" Id="VzfE0cxY0fjLYtwQ8s01K1">
+      <p:NodeReference>
+        <Choice Kind="ContainerDefinition" Name="Process" />
+        <FullNameCategoryReference ID="Primitive" />
+      </p:NodeReference>
+      <Patch Id="LP1r1wJnqndNvHY0bKDUtt">
+        <Canvas Id="NaFrDu0kQehOmdnVDAXcED" BordersChecked="false" CanvasType="Group" />
+        <Patch Id="PfefhIgUePROpugJmOKyGm" Name="Create" />
+        <Patch Id="Pkmt5tERjH4P9M24iHG99w" Name="Update" />
+        <!--
+
+    ************************  ************************
+
+-->
+        <ProcessDefinition Id="OT5sAFrVSfXMeKVPPYZbgp">
+          <Fragment Id="HhKIB8qbDLPLSIvxvtaJF5" Patch="PfefhIgUePROpugJmOKyGm" Enabled="true" />
+          <Fragment Id="PuEYWRmJADXQFvcReKfarj" Patch="Pkmt5tERjH4P9M24iHG99w" Enabled="true" />
+        </ProcessDefinition>
+      </Patch>
+    </Node>
   </Patch>
-  <DocumentDependency Id="B9C971d19OtLNV97HvU75N" Location="../../../VL.glTF.vl" />
 </Document>

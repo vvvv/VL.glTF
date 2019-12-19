@@ -1,15 +1,15 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50debug36.1.dtd" >
-   <PATCH nodename="C:\Users\joreg\Documents\repos\vl-others\VL.glTF\vvvv\girlpower\DX11demo.v4p" systemname="DX11demo" filename="C:\Users\joreg\Documents\repos\vl-others\VL.glTF\vvvv\girlpower\DX11demo.v4p" scrollx="0" scrolly="0">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta39.dtd" >
+   <PATCH nodename="C:\Users\joreg\Documents\repos\vl-libs\VL.glTF\vvvv\girlpower\DX11demo.v4p" systemname="DX11demo" filename="C:\Users\joreg\Documents\repos\vl-others\VL.glTF\vvvv\girlpower\DX11demo.v4p" scrollx="0" scrolly="0">
    <BOUNDS type="Window" left="7470" top="0" width="10305" height="14010">
    </BOUNDS>
-   <PACK Name="addonpack" Version="36.0.0">
+   <PACK Name="addonpack" Version="39.0.0">
    </PACK>
    <NODE nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox" id="12">
    <BOUNDS type="Node" left="795" top="225" width="4815" height="270">
    </BOUNDS>
    <BOUNDS type="Box" left="795" top="225" width="4815" height="270">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="..\..\..\..\..\..\Desktop\sandbox\gltf\CesiumMilkTruck\glTF\CesiumMilkTruck.gltf">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="..\..\asset\CesiumMan.gltf">
    </PIN>
    <PIN pinname="Output String" visible="1">
    </PIN>
@@ -467,9 +467,9 @@
    </BOUNDS>
    <PIN pinname="Layers" visible="1">
    </PIN>
-   <PIN pinname="View" visible="1">
+   <PIN pinname="View" visible="1" slicecount="1" values="||">
    </PIN>
-   <PIN pinname="Projection" visible="1">
+   <PIN pinname="Projection" visible="1" slicecount="1" values="||">
    </PIN>
    <PIN pinname="Depth Buffer Mode" slicecount="1" values="Standard">
    </PIN>
@@ -513,18 +513,6 @@
    <LINK srcnodeid="348" srcpinname="Layer" dstnodeid="347" dstpinname="Layer 1">
    </LINK>
    <LINK srcnodeid="346" srcpinname="Layer" dstnodeid="347" dstpinname="Layer 2">
-   </LINK>
-   <NODE systemname="Camera (Transform Orbit)" filename="..\..\..\..\vvvv\public-vl\VL.EditingFramework\vvvv\nodes\modules\Camera (Transform Orbit).v4p" nodename="Camera (Transform Orbit)" componentmode="Hidden" id="349">
-   <BOUNDS type="Node" left="3825" top="11775" width="100" height="100">
-   </BOUNDS>
-   <PIN pinname="View" visible="1">
-   </PIN>
-   <PIN pinname="Projection" visible="1">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="349" srcpinname="View" dstnodeid="345" dstpinname="View">
-   </LINK>
-   <LINK srcnodeid="349" srcpinname="Projection" dstnodeid="345" dstpinname="Projection">
    </LINK>
    <NODE id="196" systemname="FileTexture (DX11 2d)" nodename="FileTexture (DX11 2d)" componentmode="Hidden" hiddenwhenlocked="0" managers="" filename="%VVVV%\packs\dx11\nodes\plugins\base\VVVV.DX11.Nodes.dll">
    <BOUNDS type="Node" left="2805" top="9840" width="100" height="100">
@@ -578,4 +566,16 @@
    <PIN pinname="String Type" slicecount="1" values="MultiLine">
    </PIN>
    </NODE>
+   <NODE systemname="Camera (Transform Orbit)" filename="%VVVV%\lib\nugets\VL.EditingFramework.2019.1.0-0959-g3a31ab0c51\vvvv\nodes\modules\Camera (Transform Orbit).v4p" nodename="Camera (Transform Orbit)" componentmode="Hidden" id="352">
+   <BOUNDS type="Node" left="3720" top="11730" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="View" visible="1">
+   </PIN>
+   <PIN pinname="Projection" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="352" srcpinname="View" dstnodeid="345" dstpinname="View">
+   </LINK>
+   <LINK srcnodeid="352" srcpinname="Projection" dstnodeid="345" dstpinname="Projection">
+   </LINK>
    </PATCH>
